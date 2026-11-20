@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        try {
+          var savedTheme = window.localStorage.getItem('se-exam-guide-theme-v1');
+          var prefersDark =
+            window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (_) {}
+        try {
+          var desc = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (desc && desc.get && !desc.set && desc.configurable) {
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: desc.enumerable,
+              get: function () {
+                return desc.get.call(window);
+              },
+              set: function () {},
+            });
+          }
+        } catch (_) {}
+        window.addEventListener(
+          'error',
+          function (e) {
+            if (e && typeof e.filename === 'string' && e.filename.indexOf('chrome-extension://') === 0) {
+              e.stopImmediatePropagation();
+              e.preventDefault();
+            }
+          },
+          true,
+        );
+      })();
+    </script>
+    <title>SE Exam Guide — Software Engineering Complete Answer Key (Units 1–6)</title>
+    <meta name="description" content="Complete Software Engineering exam preparation answer key covering Units 1 to 6 with 2-mark answers, 13/16-mark 5-page blueprints, interactive SVG diagrams, 3D architecture scenes, and PERT/CPM calculators." />
+    <meta property="og:title" content="SE Exam Guide — Software Engineering Complete Answer Key" />
+    <meta property="og:description" content="Units 1–6 Software Engineering answer key with interactive diagrams, 3D architectural models, and exam calculators." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-blue-100 selection:text-blue-900 dark:selection:bg-blue-900/60 dark:selection:text-blue-100 transition-colors duration-150">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "SE Exam Guide",
+  "description": "Complete Software Engineering exam preparation answer key (Units 1–6) with 2-mark flashcards, 13/16-mark 5-page blueprints, interactive SVG diagrams, 3D architectural models, and PERT/CPM calculators.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

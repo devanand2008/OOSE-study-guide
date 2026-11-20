@@ -1,0 +1,2906 @@
+# **SOFTWARE ENGINEERING – COMPLETE EXAM ANSWER NOTES**
+
+UNIT 1 to UNIT 6 | 2-Mark Answers + 13-Mark Long Answers
+
+All six units are covered below in simple, exam-friendly English. The 2-mark answers are brief. The long answers include definitions, explanations, diagrams, examples, advantages, disadvantages and conclusions wherever relevant.
+
+**Important:** Your question paper mentions **13 marks** for long answers. I’ll follow that. The long-answer content is structured so you can expand it into approximately 5 handwritten pages by writing the explanations, diagrams, examples and comparisons neatly. A single chat has practical length limits, so these are comprehensive exam notes rather than five full pages for every individual question.
+
+# **UNIT 1 – SOFTWARE PROCESS AND AGILE DEVELOPMENT**
+
+## **Part A – 2-Mark Answers**
+
+**1. Define Software Engineering. What is Software Crisis?**
+
+- **Software Engineering:** Software Engineering is the systematic application of engineering principles, methods and tools to develop, operate, test and maintain software.
+- **Software Crisis:** Software Crisis refers to problems in software development such as high cost, late delivery, poor quality, complexity and difficulty in maintenance.
+
+**2. Waterfall Model vs Incremental Model**
+
+| Waterfall Model                           | Incremental Model                        |
+| ----------------------------------------- | ---------------------------------------- |
+| Development follows a sequential process. | Development occurs in small increments.  |
+| Each phase is completed before the next.  | Each increment adds new functionality.   |
+| Changes are difficult to make later.      | Changes can be handled more easily.      |
+| Working software is delivered at the end. | Working software is delivered regularly. |
+
+**3. What are the Agile Manifesto principles?**
+
+The Agile Manifesto contains four core values:
+
+1. Individuals and interactions over processes and tools.
+2. Working software over comprehensive documentation.
+3. Customer collaboration over contract negotiation.
+4. Responding to change over following a plan.
+
+It also contains 12 supporting principles, including early delivery, continuous customer satisfaction, teamwork, simplicity and regular improvement.
+
+**4. What are the 12 XP practices?**
+
+Extreme Programming (XP) uses these 12 practices:
+
+1. Planning game
+2. Small releases
+3. System metaphor
+4. Simple design
+5. Testing
+6. Refactoring
+7. Pair programming
+8. Collective ownership
+9. Continuous integration
+10. 40-hour week
+11. On-site customer
+12. Coding standards
+
+## **Part B – 13-Mark Answers**
+
+### **1. Explain Waterfall, Incremental, Spiral and Prototyping Models with diagrams, advantages, disadvantages and applications.**
+
+**Introduction**
+
+A Software Development Life Cycle (SDLC) model describes the steps followed to develop software. It provides a systematic approach for planning, designing, coding, testing and maintaining software.
+
+**1. Waterfall Model**
+
+The Waterfall Model is a traditional software development model. Each phase must be completed before moving to the next phase.
+
+[Software Development Methodologies: A Deep Dive into the Waterfall Model: Part 2 📈 – The Rails Drop](https://images.openai.com/static-rsc-4/hSOHGxTERc8TE1m3O3YTfGLUwllOHKeAVO4wyKGVZr4wq53YIM6Mg8ACd-B-RYJfp8-0Iom-c0l5Fhcm5Wj82QC1k1-WBbBMdSccUmfnxbBR82JoCEPFEQuS68jTqfmH9C14lRcrjPqpYITii86uA35L06k1BzvzC0Q3-q77OCA?purpose=inline)
+
+[railsdrop.com](https://railsdrop.com/2025/07/18/software-development-methodologies-a-deep-dive-into-the-waterfall-model-part-2/?utm_source=chatgpt.com)
+
+**Phases:**
+
+1. Requirement Analysis – Collect and analyse user requirements.
+2. System Design – Prepare architecture, database and interface design.
+3. Implementation – Convert the design into program code.
+4. Testing – Identify and correct errors.
+5. Deployment – Install the software for users.
+6. Maintenance – Fix bugs and improve the system.
+
+**Advantages:**
+
+- Simple and easy to understand.
+- Clearly defined phases.
+- Easy to manage.
+- Suitable for projects with fixed requirements.
+
+**Disadvantages:**
+
+- Difficult to change requirements.
+- Testing happens relatively late.
+- Working software is available only near the end.
+- Not suitable for highly changing projects.
+
+**Applications:** Small payroll systems, basic billing software and projects with stable requirements.
+
+**2. Incremental Model**
+
+The Incremental Model develops software in small parts called increments. Every increment adds new features to the existing system.
+
+[Incremental Model in Software Development Life Cycle (SDLC): Phases, Advantages & Disadvantages | by Jayendra More | Bootcamp | Medium](https://images.openai.com/static-rsc-4/qYql_9rnDELJNiHxKl-tVOKX2Aej2Lzs46nljUvd_GjTVXjVgUcrT5rkfp1hdHF5QuQLaFNuvTWZDl0j608qqXV_fLYw7mjdqIj97qksPs7QmOL6VH-Ef2yBE0RloSlTN5F0nVHhp_fjzbKYY73ACa1N2UZb1xyqFsScN-6yMJY?purpose=inline)
+
+[medium.com](https://medium.com/design-bootcamp/dlc-software-development-model-incremental-development-7598ae6500e6?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Collect overall requirements.
+2. Divide the system into smaller modules.
+3. Design and develop the first increment.
+4. Test and deliver it.
+5. Develop the next increment.
+6. Integrate all increments into the final product.
+
+**Example – College Management System:**
+
+- Increment 1: Student registration.
+- Increment 2: Attendance management.
+- Increment 3: Fee payment.
+- Increment 4: Examination results.
+
+**Advantages:**
+
+- Early delivery of working software.
+- Easier testing and debugging.
+- Supports changing requirements.
+- Reduces initial delivery risk.
+
+**Disadvantages:**
+
+- Requires good planning.
+- Integration may become complex.
+- Overall architecture must be designed carefully.
+
+**Applications:** E-commerce websites, banking applications and college portals.
+
+**3. Spiral Model**
+
+The Spiral Model combines iterative development with risk analysis. Software is developed through repeated cycles called spirals.
+
+[6 Software Testing Methodologies to Explore](https://images.openai.com/static-rsc-4/k-7phuRev8tHGp6UelhY25AWyWr0Io8zRX6LIM5R6-pCm2L0zoXCU9FmEYw8ZesX07F4I_xwQSYU0bgDuZ9bA-F2WLH2jrBDnIAxQ0JZELllLVM2Op5Um3UTCraUT2JjfibfLR4X9BUsTgmV_5XmiHuICULfn84kuhKaxA4xYJ8?purpose=inline)
+
+[globalapptesting.com](https://www.globalapptesting.com/blog/software-testing-methodologies?utm_source=chatgpt.com)
+
+**Four main activities:**
+
+1. Planning – Identify objectives, requirements and alternatives.
+2. Risk Analysis – Identify risks and find solutions.
+3. Engineering – Design, code and test the software.
+4. Evaluation – Customer reviews the result and provides feedback.
+
+Each spiral produces an improved version of the software.
+
+**Advantages:**
+
+- Strong risk management.
+- Supports changing requirements.
+- Suitable for large and complex projects.
+- Customer feedback is considered regularly.
+
+**Disadvantages:**
+
+- Expensive to develop.
+- Requires risk-analysis experts.
+- Difficult to manage.
+- Not suitable for small projects.
+
+**Applications:** Aerospace systems, defence software, large banking systems and safety-critical applications.
+
+**4. Prototyping Model**
+
+A prototype is an early working model of the software. It is developed to understand and validate customer requirements.
+
+[A Deep Dive into Prototype Model in Software Engineering | Relia Software](https://images.openai.com/static-rsc-4/VbHUJkFh7ht94EljfSTEBDtAcU82gz0pzjY-LFIAbkTMSnzwXHWb8GwTNQ8xVqsF9GEo5bqR8EPhNU4XtZSQswTQCAkNWKgag7rGgkQYAz6vj1aR1m7aRkQAdlSWa979puNOhVB_8a02nbQZHr16UbnlVrBsPBSpUSfLXBD5YZs?purpose=inline)
+
+[reliasoftware.com](https://reliasoftware.com/blog/prototype-model-in-software-engineering?utm_source=chatgpt.com)
+
+**Steps:**
+
+1. Collect initial requirements.
+2. Prepare a quick design.
+3. Build a prototype.
+4. Show it to the customer.
+5. Collect feedback.
+6. Modify and improve the prototype.
+7. Develop and test the final system.
+
+**Advantages:**
+
+- Helps understand unclear requirements.
+- Customer involvement is high.
+- Reduces misunderstanding.
+- Improves user-interface design.
+
+**Disadvantages:**
+
+- Frequent changes may increase cost.
+- Users may think the prototype is the final product.
+- Poor prototype design may affect the final system.
+
+**Applications:** Online shopping interfaces, mobile applications, booking systems and new product development.
+
+**Comparison**
+
+| Model       | Main Feature           | Best Suitable For        |
+| ----------- | ---------------------- | ------------------------ |
+| Waterfall   | Sequential development | Fixed requirements       |
+| Incremental | Small feature releases | Modular applications     |
+| Spiral      | Risk analysis          | Large, high-risk systems |
+| Prototyping | Early sample system    | Unclear requirements     |
+
+**Conclusion:** Each SDLC model has its own strengths. The model should be selected based on project size, risk, budget, customer requirements and complexity.
+
+### **2. Explain Agile Process in detail. Compare Agile and Traditional Process.**
+
+**Introduction**
+
+Agile is an iterative and incremental software development approach. It develops software in small cycles and continuously collects customer feedback.
+
+[Agile development process infographic](https://images.openai.com/static-rsc-4/KYrW5bXQXMnhcj8If7K7Dgtp6epLT_zBkiGy3Z1piqhLYX5-GWn-t6hkPK5-FGUgeVWwpEebedJXMRTQY-nnZU3q7O-U3NMhK1ZxnjRKh6gEpTDyktms4IYktDlJ6gI0ZiWlFNdc32eXAretzK7-OaqBwu0o7UJCCZbl12nD16MvXoBX2_XzsuSX44Qoy-96?purpose=inline)
+
+**Agile Process:**
+
+1. Requirement Collection – Understand customer needs.
+2. Product Backlog – Prepare a list of features and tasks.
+3. Sprint Planning – Select tasks for the current sprint.
+4. Design – Prepare the required system design.
+5. Development – Developers write the code.
+6. Testing – Test the developed features.
+7. Sprint Review – Demonstrate the working software.
+8. Retrospective – Discuss what went well and what must improve.
+9. Next Sprint – Repeat the process until the product is complete.
+
+**Important Agile Roles:**
+
+- Product Owner – Defines requirements and priorities.
+- Scrum Master – Helps the team follow Agile practices.
+- Development Team – Designs, codes and tests the product.
+- Customer – Provides feedback and validates the product.
+
+**Agile Principles:**
+
+- Deliver working software frequently.
+- Welcome changing requirements.
+- Maintain continuous customer collaboration.
+- Encourage face-to-face communication.
+- Build projects around motivated individuals.
+- Focus on technical excellence.
+- Keep the process simple.
+- Regularly improve the team's work.
+
+**Example – College Management System**
+
+The team can develop the application in multiple sprints:
+
+- Sprint 1: Login and registration.
+- Sprint 2: Student profile.
+- Sprint 3: Attendance.
+- Sprint 4: Fees and payments.
+- Sprint 5: Results and reports.
+
+After each sprint, the college can review the features and suggest changes.
+
+**Agile vs Traditional**
+
+| Agile Process                  | Traditional Process                 |
+| ------------------------------ | ----------------------------------- |
+| Iterative and incremental      | Usually sequential                  |
+| Frequent releases              | Often one major final release       |
+| Welcomes changing requirements | Changes may be difficult            |
+| Continuous customer feedback   | Customer involvement may be limited |
+| Testing occurs throughout      | Testing may occur after development |
+| Flexible planning              | More fixed planning                 |
+| Suitable for dynamic projects  | Suitable for stable requirements    |
+
+**Advantages of Agile:**
+
+- Faster delivery.
+- Better customer satisfaction.
+- Early identification of defects.
+- Flexible to changes.
+- Continuous improvement.
+
+**Disadvantages:**
+
+- Requires active customer involvement.
+- Cost and time may be difficult to predict.
+- Frequent changes may affect scope.
+- Requires experienced team members.
+
+**Conclusion:** Agile improves software quality and customer satisfaction through frequent delivery, teamwork and continuous feedback.
+
+### **3. Explain Extreme Programming (XP) Process with Planning, Design, Coding and Testing phases.**
+
+**Introduction**
+
+Extreme Programming (XP) is an Agile software development methodology. It focuses on high-quality software, frequent releases, customer involvement and continuous testing.
+
+[What Is Agile Project Development?](https://images.openai.com/static-rsc-4/X-15gUn3sF7hlsTCxFsfM8UpYKcOnnYi-c4-OLRG52t-qhqfr24ZTs-kjaHGm-5RYChcIUbb5Y7EvkSZzSDWk_USurLnkfeqLDEFH2xjIcsctdpow7vIeGcNXdPljNX6xbsCtUZQxBfTq0Q_15xW9Z3qlzP-LclEWFD7azkofu4?purpose=inline)
+
+[ntaskmanager.com](https://www.ntaskmanager.com/blog/what-is-agile-project-development/?utm_source=chatgpt.com)
+
+**XP Process**
+
+**1. Planning Phase**
+
+- Collect customer requirements.
+- Prepare user stories.
+- Estimate time and effort.
+- Prioritise important features.
+- Plan small releases.
+
+Example: For an online food ordering application, user stories include login, restaurant search, cart and payment.
+
+**2. Design Phase**
+
+- Select a simple design.
+- Identify classes and modules.
+- Prepare system architecture.
+- Use CRC cards if required.
+- Refactor the design when necessary.
+
+XP follows the principle of keeping the design as simple as possible.
+
+**3. Coding Phase**
+
+- Follow coding standards.
+- Use pair programming.
+- Integrate code continuously.
+- Share code ownership.
+- Write unit tests.
+
+**Pair Programming:** Two programmers work together at one computer. One writes code while the other reviews it.
+
+**4. Testing Phase**
+
+- Perform unit testing.
+- Perform acceptance testing.
+- Run automated tests.
+- Correct errors immediately.
+- Obtain customer feedback.
+
+**12 XP Practices**
+
+1. Planning game
+2. Small releases
+3. System metaphor
+4. Simple design
+5. Testing
+6. Refactoring
+7. Pair programming
+8. Collective ownership
+9. Continuous integration
+10. 40-hour week
+11. On-site customer
+12. Coding standards
+
+**Advantages:**
+
+- Improves code quality.
+- Early defect detection.
+- Frequent software releases.
+- Strong customer involvement.
+- Supports changing requirements.
+
+**Disadvantages:**
+
+- Requires continuous customer participation.
+- Pair programming may require more resources.
+- Difficult for very large distributed teams.
+- Needs disciplined developers.
+
+**Conclusion:** XP improves software development through simple design, frequent testing, teamwork and continuous feedback.
+
+# **UNIT 2 – REQUIREMENTS ANALYSIS AND SPECIFICATION**
+
+## **Part A – 2-Mark Answers**
+
+**1. What is SRS? What are its contents?**
+
+SRS stands for **Software Requirements Specification**. It is a document that describes the complete functional and non-functional requirements of a software system.
+
+**Contents:**
+
+- Introduction
+- Purpose and scope
+- Overall description
+- Functional requirements
+- Non-functional requirements
+- External interface requirements
+- System constraints
+- Assumptions and dependencies
+
+**2. Functional vs Non-functional Requirements**
+
+| Functional Requirements        | Non-functional Requirements                      |
+| ------------------------------ | ------------------------------------------------ |
+| Describe what the system does. | Describe how well the system works.              |
+| Define system features.        | Define quality attributes.                       |
+| Example: User login.           | Example: Login should complete within 2 seconds. |
+
+**3. Use Case Diagram Symbols**
+
+- Actor – Stick figure representing a user or external system.
+- Use Case – Oval representing a function.
+- System Boundary – Rectangle showing system scope.
+- Association – Line connecting actor and use case.
+- Include – Mandatory reusable behaviour.
+- Extend – Optional or conditional behaviour.
+- Generalization – Inheritance relationship.
+
+**4. Explain DFD Levels 0, 1 and 2.**
+
+- **Level 0:** Context diagram showing the complete system as one process and its external entities.
+- **Level 1:** Divides the main process into major sub-processes.
+- **Level 2:** Further divides a Level 1 process into detailed sub-processes.
+
+## **Part B – 13-Mark Answers**
+
+### **1. Explain SRS in detail with structure. Prepare SRS for a Library Management System.**
+
+**Introduction**
+
+Software Requirements Specification (SRS) is a formal document that describes what a software system should do and the conditions under which it must operate.
+
+It acts as an agreement between the customer, developer and testing team.
+
+**Importance of SRS**
+
+1. Helps developers understand requirements.
+2. Reduces misunderstanding.
+3. Supports project planning.
+4. Helps software testing.
+5. Controls project scope.
+6. Acts as a reference for maintenance.
+
+**Structure of SRS**
+
+1. Introduction
+   - Purpose
+   - Scope
+   - Definitions
+   - References
+2. Overall Description
+   - Product perspective
+   - User characteristics
+   - Operating environment
+   - Constraints
+3. Functional Requirements
+4. Non-functional Requirements
+5. External Interface Requirements
+6. Database Requirements
+7. System Constraints
+8. Assumptions and Dependencies
+
+**SRS for Library Management System**
+
+**1. Introduction**
+
+The Library Management System is designed to manage books, students, librarians, borrowing and returning activities.
+
+**2. Purpose**
+
+- Reduce manual library work.
+- Maintain book records.
+- Track borrowed books.
+- Manage due dates and fines.
+
+**3. Scope**
+
+The system is used by students, librarians and administrators.
+
+**4. Users**
+
+- Admin
+- Librarian
+- Student
+
+**5. Functional Requirements**
+
+- User login and logout.
+- Add new books.
+- Update book details.
+- Search books by title, author or ID.
+- Issue books.
+- Return books.
+- Calculate overdue fines.
+- Display borrowing history.
+- Generate reports.
+
+**6. Non-functional Requirements**
+
+- Performance: Search results should appear quickly.
+- Security: Only authorised users can access the system.
+- Reliability: Data should not be lost.
+- Usability: Interface should be easy to understand.
+- Availability: System should be accessible during library working hours.
+- Scalability: System should support more books and users in the future.
+
+**7. Hardware Requirements**
+
+- Computer or server.
+- Minimum 4 GB RAM for a basic deployment.
+- Network connection.
+- Barcode scanner if required.
+
+**8. Software Requirements**
+
+- Operating System: Windows or Linux.
+- Frontend: HTML, CSS and JavaScript.
+- Backend: Python, Java or PHP.
+- Database: MySQL or PostgreSQL.
+
+**9. Input Requirements**
+
+- Student ID
+- Book ID
+- Book title
+- Author
+- Issue date
+- Return date
+
+**10. Output Requirements**
+
+- Book availability status.
+- Issue details.
+- Return confirmation.
+- Fine details.
+- Student borrowing report.
+
+**11. Constraints**
+
+- Only registered users can borrow books.
+- A book cannot be issued if unavailable.
+- Borrowing limits are controlled by library rules.
+
+**12. Assumptions**
+
+- Users have valid login credentials.
+- Book records are maintained by the librarian.
+- The system has a working database connection.
+
+**Advantages of SRS**
+
+- Clear communication.
+- Better project estimation.
+- Easy validation.
+- Reduced development errors.
+- Helps future maintenance.
+
+**Conclusion:** SRS is an important document that provides a clear understanding of software requirements before development begins.
+
+**Other SRS examples – important points**
+
+| System               | Main Functional Requirements                                                                                  |
+| -------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Online Food Ordering | User registration, restaurant search, food selection, cart, payment, order tracking, cancellation             |
+| Railway Reservation  | Train search, seat availability, passenger details, booking, payment, ticket generation, cancellation, refund |
+
+For a long-answer question, use the Library Management SRS structure above and replace the system-specific features if the question asks for Food Ordering or Railway Reservation.
+
+### **2. Explain UML diagrams: Use Case, Class, Sequence, Activity and State Chart diagrams with examples.**
+
+**Introduction**
+
+UML stands for **Unified Modeling Language**. It is a standard visual language used to analyse, design and document software systems.
+
+**1. Use Case Diagram**
+
+A Use Case Diagram represents the interaction between users and the system.
+
+[Library Management System use case | Visual Paradigm User-Contributed Diagrams / Designs](https://images.openai.com/static-rsc-4/6nFXJ0X8M_svOKAM4X3xLGyDzPw_pzZVMFoI-W7YP3iVG0gu7r8XHCRnniu2BEu7zx3dWUSzDA2LdrGJ6piCZkAEsggUAwTROEH6aAcBNIqv4gj1WNKNhVJyPBR0Cjt2LJDa1Z4E6VQikVkVv9cOudCu7fPPA1SAYvPQF7SpK9w?purpose=inline)
+
+[online.visual-paradigm.com](https://online.visual-paradigm.com/community/share/library-management-system-use-case-1oyfwsi5mr?utm_source=chatgpt.com)
+
+**Elements:**
+
+- Actor
+- Use case
+- System boundary
+- Association
+- Include
+- Extend
+
+**Example:** In a library system, the student can search books, borrow books and return books. The librarian can add books and manage borrowing.
+
+**2. Class Diagram**
+
+A Class Diagram represents the static structure of a system. It shows classes, attributes, methods and relationships.
+
+[What is Object Oriented Design of a system? Draw the Use case diagram and Class diagram for Library Management system. | Winter-2018](https://images.openai.com/static-rsc-4/ALKODDTs_yXqYy6kvIhrlr1OjL-_FKIF_s4DibnVbbOCxNor7CScqNxN5rd5O7nyqxm1SxRRHpvjdDEe1FuwpWttzdZBbfrpXydkbT3bsXljSjo8Ur-nE0R8FkePwtwUCqhHCeVPIKhmiuEZq3-ac1tp6w7vtjsr4M6EsZgdHzE?purpose=inline)
+
+[gtu-paper-solution.com](https://gtu-paper-solution.com/Paper-Solution/SoftwareEngineering-2160701/Winter-2018/Question-3c?utm_source=chatgpt.com)
+
+**Main elements:**
+
+- Class name
+- Attributes
+- Methods
+- Association
+- Inheritance
+- Aggregation
+- Composition
+
+Example classes:
+
+- Student: studentId, name; searchBook(), borrowBook().
+- Book: bookId, title, author; checkAvailability().
+- Librarian: librarianId, name; addBook(), removeBook().
+- Loan: issueDate, dueDate; calculateFine().
+
+**3. Sequence Diagram**
+
+A Sequence Diagram shows the order of messages exchanged between objects over time.
+
+[Sequence diagram for library management system: a detailed guide | Gleek | Gleek](https://images.openai.com/static-rsc-4/-VxBhq5_j5QqAAK4fGfIe2lwdV4i6EuzbeKa8tyEuGozYCu9NlBqsYfL1JahQxjyIy4i40eD-PYoGY7DcMWPHLR2gcfUSb-lxMUlEtyBy5Gof6bksM3JlG0uOUK35gYE_LDmPYLnsk1LKc_0WbArJomF3FeGXOBqEc3PDjPwRmk?purpose=inline)
+
+[gleek.io](https://www.gleek.io/blog/sequence-library-management?utm_source=chatgpt.com)
+
+**Example – Book Issue:**
+
+1. Student requests a book.
+2. System checks book availability.
+3. Database returns availability.
+4. System records the issue.
+5. System confirms the issue to the student.
+
+**4. Activity Diagram**
+
+An Activity Diagram represents the workflow or step-by-step activities of a system.
+
+[How to Create an Activity Diagram for an Online Book Store](https://images.openai.com/static-rsc-4/H5-lhJffrHj1ePfaZs-Pn20vM5Bcu2yXtIPemw8DjM_hFloxNGsjxdtl2Cq4z_on7O0Oxk3jZeZn7waWjGr3ZRtUSTWfmiHWEBnKNPjQpFMLZV9RtiZmjHDscXPjPbRofCro7PCUuHphU4KEcFaQ_7g3TmX9bFVTqt9ZVDphl7c?purpose=inline)
+
+[elecdiags.com](https://elecdiags.com/activity-diagram-for-online-book-store?utm_source=chatgpt.com)
+
+**Example – Book Borrowing:**
+
+Start → Login → Search Book → Check Availability → Is Available?
+
+- Yes → Issue Book → Update Database → End.
+- No → Display Not Available → End.
+
+**5. State Chart Diagram**
+
+A State Chart Diagram shows the different states of an object and the transitions between them.
+
+[PPT - UML -Part 3 PowerPoint Presentation, free download - ID:5671556](https://images.openai.com/static-rsc-4/Xob8-UyXk4hQUyiI0lNG9ufD2JvRsjGUhDFDFb98TclFR79EN2RwXJzc1QDpRg0AsC3vwoL2ZAFye4VNrUVlADbLTpdPuH8r-I3Nv3uG9dDIktaCcMSNuTGUw2V05csP1WB0UfshRny7lb8bbgV9P_1Jtx9a0dVxHrYYyhalx9U?purpose=inline)
+
+[slideserve.com](https://www.slideserve.com/ferris/uml-part-3-powerpoint-ppt-presentation?utm_source=chatgpt.com)
+
+**Example – Book States:**
+
+- Available
+- Reserved
+- Issued
+- Overdue
+- Returned
+
+A book changes from Available to Issued when a student borrows it. After returning, it moves to Available again.
+
+**Comparison**
+
+| Diagram     | Purpose                       |
+| ----------- | ----------------------------- |
+| Use Case    | User-system interaction       |
+| Class       | Static structure              |
+| Sequence    | Message order over time       |
+| Activity    | Workflow                      |
+| State Chart | Object states and transitions |
+
+**Advantages of UML**
+
+- Easy system visualisation.
+- Improves communication.
+- Helps identify design errors.
+- Supports documentation.
+- Makes complex systems easier to understand.
+
+**Conclusion:** UML diagrams provide different views of a system and help developers understand its structure and behaviour.
+
+### **3. Explain DFD with example. Draw DFD for Online Food Ordering System.**
+
+**Introduction**
+
+DFD stands for **Data Flow Diagram**. It is a graphical representation of how data enters, moves through, gets processed and leaves a system.
+
+**DFD Symbols**
+
+[Data Flow Diagram Generator — DFD Maker & AI Tool | SciFig](https://images.openai.com/static-rsc-4/KlyLAqPSPHMAftcBhRG9vJVs-VcIp66KnqHypQS7SWsPc5X_9GHtafjpkoabaZAUcXtYmCz4H1R-3GSBgy4DCEv52808Z263L27u9i8-DKqt9_GXccPIK0FYKqaqrC0i0JeX6SrQbWZ0l-xQkJLIcMDZeH3GdeCLdaWX8mqarUA?purpose=inline)
+
+[scifig.ai](https://scifig.ai/tools/data-flow-diagram-generator?utm_source=chatgpt.com)
+
+1. External Entity – Source or destination of data.
+2. Process – Converts input data into output.
+3. Data Flow – Movement of data.
+4. Data Store – Stores information.
+
+**DFD Levels**
+
+**Level 0 – Context Diagram**
+
+Shows the entire system as one process.
+
+[Understanding Data Flow Diagram for Food Ordering System](https://images.openai.com/static-rsc-4/nynS7FixACoe2doF7EB6IUl14hq6yGnkANEriZkFYOtQVaa-O2GlzlVShfpio75RDJpzKeklpUG6teKLRQ3UBFc7ppBjD-5HlvA1ARo9FCtAhXdg_WPAn60YfB5RoL7EbncDEzbwsX16H2k39KCRs9I0PeCbIljkOEdyjeZkU7M?purpose=inline)
+
+[hashmato.com](https://hashmato.com/data-flow-diagram-food-ordering-system/?utm_source=chatgpt.com)
+
+External entities:
+
+- Customer
+- Restaurant
+- Payment Gateway
+- Delivery Partner
+
+**Level 1 – Main Processes**
+
+[Design of Web App for Online Food Services](https://images.openai.com/static-rsc-4/LE4EiWUkRarn9YeQvDWxRDTZ7FBMb9Q_lL4Rg2_hwf54GgW4K0ep3TvYjspbZvV1YM4pyCCUl-1C_bfRfBs7nF4A55PNX3l4mqneoUYssYiWRS7W4R7_x9ZUVDc8WVXiTUJNQNdfPFHhUZ0kOMtZC9qm4_QFoonIyuJK3QDH_EM?purpose=inline)
+
+[ijraset.com](https://www.ijraset.com/research-paper/design-of-web-app-for-online-food-services?utm_source=chatgpt.com)
+
+Main processes:
+
+1. User Management
+2. Restaurant and Menu Management
+3. Order Processing
+4. Payment Processing
+5. Delivery Management
+
+Data stores:
+
+- User Database
+- Menu Database
+- Order Database
+- Payment Database
+
+**Level 2 – Order Processing**
+
+The Order Processing process can be divided into:
+
+1. Receive customer order.
+2. Validate cart items.
+3. Check restaurant availability.
+4. Calculate total amount.
+5. Create order.
+6. Send order to restaurant.
+7. Generate order confirmation.
+
+**Working of Online Food Ordering System**
+
+1. Customer logs in.
+2. Customer searches for a restaurant.
+3. Customer selects food items.
+4. System calculates the bill.
+5. Customer makes payment.
+6. Restaurant receives the order.
+7. Delivery partner collects the food.
+8. Customer receives the order.
+
+**Advantages**
+
+- Easy to understand data movement.
+- Helps identify system processes.
+- Improves communication.
+- Supports system analysis.
+- Helps detect missing data flows.
+
+**Disadvantages**
+
+- Does not show detailed program logic.
+- Large systems may require many diagrams.
+- Does not represent timing clearly.
+
+**Conclusion:** DFD is an important system-analysis tool used to understand how information flows between users, processes and databases.
+
+### **4. Explain Finite State Machines and Petri Nets.**
+
+**Introduction**
+
+Finite State Machines and Petri Nets are mathematical modelling techniques used to represent system behaviour.
+
+**1. Finite State Machine (FSM)**
+
+An FSM is a mathematical model that represents a system using a finite number of states and transitions.
+
+**Components:**
+
+1. States – Different conditions of the system.
+2. Initial State – Starting condition.
+3. Input – Event that causes a transition.
+4. Transition – Movement from one state to another.
+5. Final State – Completion state, if defined.
+
+[FSM-Based Traffic Light Controller using Verilog (Vivado Sim - Hackster.io](https://images.openai.com/static-rsc-4/KrWqV30JBENZ277XO5vr9XSp7lp8cBSATF7aYVHJ5YKaGjnvrzbIQJQ8dyI7L5FefHexD6ewYcShKj-MWXRMQBS6HJabYYwS-PXmC7IU8kixcLZXsEXi8rLbT_YUWakam_WYy2deLHtfBQj981lnhDvNFP3CnLTRtuZuzQA-N5s?purpose=inline)
+
+[hackster.io](https://www.hackster.io/khushishah15/fsm-based-traffic-light-controller-using-verilog-vivado-sim-ee8068?utm_source=chatgpt.com)
+
+**Example – Traffic Signal**
+
+- Red → Vehicles Stop.
+- Green → Vehicles Move.
+- Yellow → Prepare to Stop.
+
+The system changes state based on time or control input.
+
+**Applications:**
+
+- Traffic signals.
+- Vending machines.
+- Login systems.
+- Communication protocols.
+- Digital circuits.
+
+**Advantages:**
+
+- Simple representation.
+- Easy to test.
+- Clearly describes state transitions.
+- Useful for event-driven systems.
+
+**Disadvantages:**
+
+- Complex systems may need many states.
+- Parallel activities are difficult to represent.
+- State explosion can occur.
+
+**2. Petri Nets**
+
+A Petri Net is a mathematical modelling tool used to represent concurrent, asynchronous and distributed systems.
+
+**Components:**
+
+1. Places – Represent conditions or states; drawn as circles.
+2. Transitions – Represent events; drawn as rectangles or bars.
+3. Tokens – Represent available resources or conditions.
+4. Arcs – Connect places and transitions.
+
+[PPT - Petri Nets PowerPoint Presentation, free download - ID:6824773](https://images.openai.com/static-rsc-4/g7HaLU22w5kG0P_26vj0uiX0fCBbtgnIKk6kTNMilsY_-OH0384ujefxLa2CNoalf96Na1aagACHI6G7N4tmqgz6CqzNTSAFAJNRJ-HWH2G-zkY0ClQegWEdi7WkaXaeTVouHEDQqvNa_vU5o7gR48RNzdv_mYNJF4rORhqWWHE?purpose=inline)
+
+[slideserve.com](https://www.slideserve.com/scarlett-parker/petri-nets?utm_source=chatgpt.com)
+
+**Example – Online Order Processing**
+
+- Place 1: Order Received.
+- Transition 1: Payment Completed.
+- Place 2: Order Confirmed.
+- Transition 2: Food Prepared.
+- Place 3: Ready for Delivery.
+
+Tokens move through the Petri Net when transitions are enabled.
+
+**Applications:**
+
+- Workflow management.
+- Manufacturing systems.
+- Distributed systems.
+- Railway control.
+- Business process modelling.
+
+**Advantages:**
+
+- Represents parallel activities.
+- Models resource sharing.
+- Helps analyse deadlocks.
+- Useful for concurrent systems.
+
+**Disadvantages:**
+
+- Complex nets are difficult to understand.
+- Large systems require many places and transitions.
+- Requires mathematical understanding.
+
+**FSM vs Petri Nets**
+
+| FSM                                | Petri Net                                  |
+| ---------------------------------- | ------------------------------------------ |
+| Represents states and transitions. | Represents places, transitions and tokens. |
+| Best for sequential behaviour.     | Best for concurrent behaviour.             |
+| Uses states.                       | Uses places and tokens.                    |
+| Simpler for small systems.         | Better for parallel systems.               |
+
+**Conclusion:** FSM is suitable for systems with clear state transitions, while Petri Nets are useful for systems involving concurrency and resource sharing.
+
+# **UNIT 3 – SOFTWARE DESIGN**
+
+## **Part A – 2-Mark Answers**
+
+**1. Coupling vs Cohesion**
+
+- **Coupling:** Degree of dependency between two or more modules.
+- **Cohesion:** Degree to which the elements inside a module are related to one another.
+
+Good software design aims for **low coupling and high cohesion**.
+
+**2. Types of Coupling and Cohesion**
+
+**Types of Coupling:**
+
+1. Content Coupling
+2. Common Coupling
+3. External Coupling
+4. Control Coupling
+5. Stamp Coupling
+6. Data Coupling
+
+**Types of Cohesion:**
+
+1. Coincidental Cohesion
+2. Logical Cohesion
+3. Temporal Cohesion
+4. Procedural Cohesion
+5. Communicational Cohesion
+6. Sequential Cohesion
+7. Functional Cohesion
+
+**3. What is Modularity?**
+
+Modularity is the process of dividing a large software system into smaller independent modules. Each module performs a specific function and can be developed, tested and maintained separately.
+
+**4. Top-down vs Bottom-up Design**
+
+| Top-down Design                     | Bottom-up Design                        |
+| ----------------------------------- | --------------------------------------- |
+| Starts with the main system.        | Starts with smaller components.         |
+| Divides the system into modules.    | Combines modules into a system.         |
+| Focuses on overall structure first. | Focuses on individual components first. |
+| Uses stepwise refinement.           | Uses component integration.             |
+
+## **Part B – 13-Mark Answers**
+
+### **1. Explain Coupling and Cohesion with types, examples and how to achieve low coupling and high cohesion.**
+
+**Introduction**
+
+Coupling and Cohesion are important software design concepts. They help measure the quality and independence of software modules.
+
+### **1. Coupling**
+
+Coupling is the degree of dependency between different modules.
+
+If one module depends heavily on another module, the system has high coupling. If modules work independently, the system has low coupling.
+
+**Types of Coupling**
+
+[Design Principles :: CPSC 310 Course Reader](https://images.openai.com/static-rsc-4/2dmaGcnfqrEMjzG67gW-KGjjDy4tNHxvZ4FT9SCzR9SD5-1zpMhN9degPGbP-mg83j6boVwhZQhk9QPzxloNvPyQUTA9rJqX4XEPL6lnjy1d3RcpKkRn6daT0NFHOB4j5vPMAE0cbQDK0aHIFaF_jNwCu4BNU3_cA3H9AYvmuBE?purpose=inline)
+
+[ubccpsc.github.io](https://ubccpsc.github.io/310/high-level-design/principles/index.html?utm_source=chatgpt.com)
+
+1. **Content Coupling:** One module directly accesses or modifies the internal data of another module. It is the strongest and least desirable form.
+2. **Common Coupling:** Multiple modules share the same global data.
+3. **External Coupling:** Modules depend on an externally imposed format, protocol or device interface.
+4. **Control Coupling:** One module passes control information that affects another module's behaviour.
+5. **Stamp Coupling:** A complete data structure is passed even though only part of it is needed.
+6. **Data Coupling:** Modules communicate by passing only the required data through parameters. It is desirable.
+
+**Example:**
+
+In a college portal:
+
+- Student module sends student ID to Attendance module.
+- Attendance module uses the ID to retrieve attendance.
+- Only necessary data is shared.
+
+This is an example of data coupling.
+
+### **2. Cohesion**
+
+Cohesion is the degree to which the elements inside a module work together to perform a single task.
+
+High cohesion means all functions inside a module are closely related.
+
+**Types of Cohesion**
+
+[Coupling , Cohesion and there Types | PPTX](https://images.openai.com/static-rsc-4/TILMV3uzHNha30YQDD33tDs5k0Td--mpOtRib5KsBI6UaJOxtWUV4dxbjv3CcCSEP-JPPe4feNltYhKyioNnTYV19OGYqJ2QjFoX1HpF3ovs1Aed87ub1uvfnBXuVkdeOi8PPBLY1gzpJE8D26n2uyRLPHbY0AUadnh5busTMIE?purpose=inline)
+
+[slideshare.net](https://www.slideshare.net/slideshow/coupling-cohesion-and-there-types/86454606?utm_source=chatgpt.com)
+
+1. **Coincidental Cohesion:** Unrelated tasks are grouped together.
+2. **Logical Cohesion:** Similar types of tasks are grouped together.
+3. **Temporal Cohesion:** Tasks that occur at the same time are grouped together.
+4. **Procedural Cohesion:** Tasks are grouped because they follow a particular sequence.
+5. **Communicational Cohesion:** Tasks operate on the same data.
+6. **Sequential Cohesion:** Output from one task becomes input to another task.
+7. **Functional Cohesion:** Every element contributes to one specific function. It is the most desirable type.
+
+**Example:**
+
+A Student Registration module contains:
+
+- Validate student details.
+- Generate student ID.
+- Save student information.
+
+These functions all support student registration, so the module has high functional cohesion.
+
+### **Difference between Coupling and Cohesion**
+
+| Coupling                                | Cohesion                               |
+| --------------------------------------- | -------------------------------------- |
+| Measures dependency between modules.    | Measures relationship within a module. |
+| Focuses on module-to-module connection. | Focuses on internal module elements.   |
+| Low coupling is desirable.              | High cohesion is desirable.            |
+| Reduces dependency.                     | Improves module responsibility.        |
+
+### **How to Achieve Low Coupling and High Cohesion**
+
+1. Divide the system into independent modules.
+2. Give every module one clear responsibility.
+3. Avoid unnecessary global variables.
+4. Pass only required data between modules.
+5. Hide internal implementation details.
+6. Use well-defined interfaces.
+7. Avoid direct access to another module's internal data.
+8. Keep related functions together.
+9. Follow object-oriented principles.
+10. Test modules independently.
+
+**Advantages**
+
+- Easier maintenance.
+- Better reusability.
+- Easier testing.
+- Reduced complexity.
+- Improved software quality.
+
+**Conclusion:** A good software design should have low coupling and high cohesion because it improves modularity, reusability, testing and maintenance.
+
+### **2. Explain Design Principles, Design Metrics, Top-down, Bottom-up and Hybrid Design.**
+
+**Introduction**
+
+Software Design is the process of converting software requirements into a blueprint for implementation. It describes the architecture, modules, interfaces and data structures of the system.
+
+### **1. Software Design Principles**
+
+1. **Abstraction:** Focus on essential features and hide unnecessary details.
+2. **Modularity:** Divide software into smaller modules.
+3. **Information Hiding:** Hide internal implementation details.
+4. **Separation of Concerns:** Keep different responsibilities separate.
+5. **Low Coupling:** Reduce dependency between modules.
+6. **High Cohesion:** Keep related functions together.
+7. **Reusability:** Design components that can be reused.
+8. **Simplicity:** Avoid unnecessary complexity.
+9. **Maintainability:** Make software easy to modify.
+10. **Consistency:** Follow common naming and design standards.
+
+### **2. Software Design Metrics**
+
+Design metrics are measurements used to evaluate software design quality.
+
+**Important metrics:**
+
+- **Coupling:** Measures dependency between modules.
+- **Cohesion:** Measures relatedness of elements in a module.
+- **Cyclomatic Complexity:** Measures the number of independent paths through a program.
+- **Fan-in:** Number of modules that call a particular module.
+- **Fan-out:** Number of modules called by a particular module.
+- **Size:** Measures the size of modules or components.
+- **Depth of Inheritance:** Measures inheritance hierarchy depth in object-oriented systems.
+
+Cyclomatic complexity can be calculated using:
+
+\\[ V(G)=E-N+2P \\]
+
+Where:
+
+- E = Number of edges.
+- N = Number of nodes.
+- P = Number of connected components (usually 1).
+
+### **3. Top-down Design**
+
+Top-down design starts with the complete system and divides it into smaller modules.
+
+[PPT - Software Engineering Principles PowerPoint Presentation, free download - ID:6312679](https://images.openai.com/static-rsc-4/Ke-clLuoZBpCqs0e2MsaClk_09qpW1hTuGlHiS5zCmKOcAMKud2h_YK-VFjL2Wxrr5b9owSIEEZ8NL6_B2Ikx5aLU0A7gEv4DY0WTkQyAhRz8oQ7pTfDev8LoeD96t1KvaN-TUxDJmSi3GaYHYOH0azFtvY3jrHeW2vYmUcRWS4?purpose=inline)
+
+[slideserve.com](https://www.slideserve.com/ila-richard/software-engineering-principles-powerpoint-ppt-presentation?utm_source=chatgpt.com)
+
+**Steps:**
+
+1. Identify the main problem.
+2. Divide it into major functions.
+3. Divide each function into sub-functions.
+4. Continue until modules are simple enough to implement.
+5. Develop and test the modules.
+
+**Advantages:**
+
+- Clear overall system structure.
+- Easy project planning.
+- Supports stepwise refinement.
+
+**Disadvantages:**
+
+- Low-level details may be ignored initially.
+- Reusable existing components may be overlooked.
+
+### **4. Bottom-up Design**
+
+Bottom-up design begins with small components and combines them to create larger systems.
+
+[Integration Testing Tutorial: A Comprehensive Guide With Examples And Best Practices](https://images.openai.com/static-rsc-4/c8Hamq44j5IWdgRgg89lqgzHvEMl02UIDCsVih-QsYiYh74prjSb8Wh8A0Q_YCC-0xJJWYfSuQ8kN_T-QXzbRjGqYlFwZJvT8_fFqKV1V1LsI4xoNi4Y3M09YrfYVnrtMXfL0HkhhuMD1poVd_H-Z17bsqDKDzv0BQET6wE_hhA?purpose=inline)
+
+[lambdatest.com](https://www.lambdatest.com/learning-hub/integration-testing?utm_source=chatgpt.com)
+
+**Steps:**
+
+1. Identify basic components.
+2. Develop individual components.
+3. Test each component.
+4. Combine components into subsystems.
+5. Integrate subsystems into the complete system.
+
+**Advantages:**
+
+- Supports component reuse.
+- Easy to test small components.
+- Useful when reusable components already exist.
+
+**Disadvantages:**
+
+- Overall architecture may be difficult to control initially.
+- Integration may be complex.
+
+### **5. Hybrid Design**
+
+Hybrid design combines top-down and bottom-up approaches.
+
+**Working:**
+
+- First, identify the overall system architecture using top-down design.
+- Then, develop reusable low-level components using bottom-up design.
+- Finally, integrate the components into the complete system.
+
+**Example – Online Shopping System**
+
+Top-down:
+
+- User Management
+- Product Management
+- Order Management
+- Payment Management
+
+Bottom-up:
+
+\- Develop reusable login, database, payment and notification components.
+
+**Advantages:**
+
+- Combines benefits of both approaches.
+- Supports reuse and clear architecture.
+- Suitable for large projects.
+
+**Comparison**
+
+| Design    | Approach                         |
+| --------- | -------------------------------- |
+| Top-down  | Main system to smaller modules   |
+| Bottom-up | Small modules to complete system |
+| Hybrid    | Combination of both              |
+
+**Conclusion:** Software design principles and metrics help produce reliable, maintainable and efficient software. Top-down, bottom-up and hybrid approaches can be selected based on project needs.
+
+### **3. Explain Functional-Oriented Design vs Object-Oriented Design.**
+
+**Introduction**
+
+Functional-Oriented Design and Object-Oriented Design are two approaches used to design software systems.
+
+### **1. Functional-Oriented Design**
+
+Functional-Oriented Design divides a system into functions or procedures. Each function performs a specific task.
+
+**Characteristics:**
+
+- Focuses on functions.
+- Uses top-down decomposition.
+- Data and functions are usually separate.
+- Functions communicate by passing data.
+- Uses DFDs and structure charts.
+
+[How to create a functional decomposition diagram? Concepts, tutorials, templates - ProcessOn](https://images.openai.com/static-rsc-4/1Ts-BgknZPZ6Uhw2t4w7xWs42B-wWe5SLmnbWmDmrglIXryzhCxhfW1NUYwb7-1iViBP6fTHrTBdpPUwraY2yaF9xL2K6JjTsbl_0qSYq2vFmWPVi-gXH1rnNsbV2Q1qf6YpyXzDYzggipZ7d2lP47O0Uycc6MkYGiyOvwRUoiM?purpose=inline)
+
+[processon.io](https://www.processon.io/blog/functional-decomposition-diagram-tutorials?utm_source=chatgpt.com)
+
+**Example – Student Management System**
+
+Functions:
+
+- Add Student
+- Update Student
+- Delete Student
+- Search Student
+- Generate Report
+
+**Advantages:**
+
+- Easy to understand for small systems.
+- Functions can be developed separately.
+- Supports structured programming.
+
+**Disadvantages:**
+
+- Data may be shared across functions.
+- Changes in data structures can affect multiple functions.
+- Reusability may be limited.
+
+### **2. Object-Oriented Design (OOD)**
+
+Object-Oriented Design divides the system into objects. Each object contains data and methods.
+
+**Characteristics:**
+
+- Focuses on objects and classes.
+- Supports encapsulation.
+- Supports inheritance.
+- Supports polymorphism.
+- Uses UML diagrams.
+- Encourages reusable components.
+
+[Лекция 6. Объектно-ориентированный анализ и проектирование |  MSUniversity](https://images.openai.com/static-rsc-4/6F4tTw2DWIbgDVlXCSEkHo4qIitKrm7ZZqiyzVpgTcV0LrEieIeXFUpejiVQi94SZd-QbsKp4tf0rfimm8kY3hClsZ_i-SnWfSvnyqsVheGn_qBP5eiwBuHqlCe9v-IC9ycc8nCFOx7f8224XoKYaJTNqFYNFQ1Zxhk-MVgGmVY?purpose=inline)
+
+[msuniversity.ru](https://msuniversity.ru/d/13/l/10088?utm_source=chatgpt.com)
+
+**Example – Student Management System**
+
+Classes:
+
+- Student
+- Course
+- Teacher
+- Attendance
+- Result
+
+Each class contains its own data and methods.
+
+Example:
+
+```
+class Student {
+    int studentId;
+    String name;
+
+    void displayDetails() {
+        System.out.println(studentId + " " + name);
+    }
+}
+```
+
+**Advantages:**
+
+- Better code reuse.
+- Easier maintenance.
+- Supports real-world modelling.
+- Data hiding improves security.
+- Suitable for large systems.
+
+**Disadvantages:**
+
+- Requires proper object-oriented understanding.
+- Initial design may be complex.
+- May introduce extra overhead for small programs.
+
+### **Comparison**
+
+| Functional-Oriented Design              | Object-Oriented Design                 |
+| --------------------------------------- | -------------------------------------- |
+| Focuses on functions.                   | Focuses on objects.                    |
+| Data and functions are separate.        | Data and methods are combined.         |
+| Uses functional decomposition.          | Uses classes and objects.              |
+| Commonly uses DFD and structure charts. | Commonly uses UML diagrams.            |
+| Reuse is mainly through functions.      | Reuse through classes and inheritance. |
+| Suitable for procedural systems.        | Suitable for complex applications.     |
+
+**Conclusion:** Functional-Oriented Design is useful for procedure-based systems, while Object-Oriented Design is useful for complex systems requiring reuse, encapsulation and maintainability.
+
+# **UNIT 4 – DESIGN PATTERNS**
+
+## **Part A – 2-Mark Answers**
+
+**1. What is a Design Pattern? What are its types?**
+
+A Design Pattern is a reusable, proven solution to a commonly occurring software design problem.
+
+Main categories:
+
+1. Creational Patterns
+2. Structural Patterns
+3. Behavioral Patterns
+
+**2. What is MVC Pattern?**
+
+MVC stands for Model-View-Controller. It separates an application into three components:
+
+- Model – Manages data and business logic.
+- View – Displays information to the user.
+- Controller – Handles user input and coordinates the Model and View.
+
+**3. Adapter vs Facade Pattern**
+
+| Adapter                                                    | Facade                                                     |
+| ---------------------------------------------------------- | ---------------------------------------------------------- |
+| Converts one interface into another.                       | Provides a simple interface to a complex subsystem.        |
+| Helps incompatible classes work together.                  | Hides subsystem complexity.                                |
+| Example: Connecting an old payment API to a new interface. | Example: One interface to start an entire computer system. |
+
+**4. What is Architectural Style?**
+
+Architectural Style is a general structure or pattern that defines how software components are organised and how they communicate.
+
+Examples: Layered, Client-Server, Pipe-and-Filter and Event-Driven architecture.
+
+## **Part B – 13-Mark Answers**
+
+### **1. Explain MVC Pattern with diagram and real-time example.**
+
+**Introduction**
+
+MVC stands for Model-View-Controller. It is a software architectural pattern that separates an application into three interconnected components.
+
+It improves code organisation, testing and maintenance.
+
+[Getting Started with Rails — Ruby on Rails Guides](https://images.openai.com/static-rsc-4/9ty1MNnkZLkFkpMdoa6maQjLTclKHFoG-bmCw8DRBDwHWJMvaOXAj-hxA1mxz583TaaC6rZVRq17LFKVme8F4vCoKGq4Yjvq3LZ5S5sFYhr8uMnVO8mlBDqb1DZUDWrxjS0mP0oPcmwI0kKowz3u4uvhhrB0VvWO_wHouiFhsqc?purpose=inline)
+
+[guides.rubyonrails.org](https://guides.rubyonrails.org/getting_started.html?utm_source=chatgpt.com)
+
+### **Components of MVC**
+
+**1. Model**
+
+- Manages application data.
+- Contains business logic.
+- Communicates with the database.
+- Performs data validation.
+
+Example: Student details, attendance and marks.
+
+**2. View**
+
+- Represents the user interface.
+- Displays information.
+- Receives user input.
+- Does not normally contain business logic.
+
+Example: Login page, student dashboard and attendance page.
+
+**3. Controller**
+
+- Receives user requests.
+- Processes input.
+- Calls the Model.
+- Selects the View to display.
+
+Example: LoginController validates a login request through the Model.
+
+### **Working of MVC**
+
+1. User interacts with the View.
+2. The View sends the request to the Controller.
+3. Controller processes the request.
+4. Controller communicates with the Model.
+5. Model performs the required operation.
+6. Model returns the result.
+7. Controller selects the appropriate View.
+8. View displays the result to the user.
+
+### **Real-time Example – Online Shopping Application**
+
+**Model:**
+
+- Product details
+- Customer details
+- Cart items
+- Order information
+
+**View:**
+
+- Product page
+- Shopping cart page
+- Payment page
+
+**Controller:**
+
+- ProductController
+- CartController
+- OrderController
+
+**Example – Add to Cart**
+
+1. Customer clicks Add to Cart.
+2. Controller receives the request.
+3. Controller calls the Cart Model.
+4. Model updates cart information.
+5. Controller returns the updated cart View.
+6. Customer sees the updated cart.
+
+### **Advantages**
+
+- Separation of concerns.
+- Easy maintenance.
+- Better code organisation.
+- Supports parallel development.
+- Easier testing.
+- Components can be reused.
+
+### **Disadvantages**
+
+- More components to manage.
+- May be complex for very small applications.
+- Requires clear coordination between components.
+
+### **Applications**
+
+- E-commerce websites.
+- College management systems.
+- Banking applications.
+- Web applications.
+- Mobile applications.
+
+**Conclusion:** MVC separates data, user interface and control logic. It improves maintainability, scalability and application organisation.
+
+### **2. Explain any Four Design Patterns with examples.**
+
+A Design Pattern is a reusable solution to a common software design problem.
+
+The following four patterns are important.
+
+**1. Observer Pattern**
+
+The Observer Pattern defines a one-to-many relationship between objects. When one object changes, all dependent objects are notified automatically.
+
+[Reactive programming, definition and frameworks](https://images.openai.com/static-rsc-4/4HUa9lJGhCVq5q91Wwih9ZJOgtT-D8IMokS-O2v0FCtAvcIwtq-LN1iQhGY2lst9h2baSLKE_T84-DW_MRGw6BadHJIXiZ-eGA0AoFRv3hliE3k6YXTwKGVQFJ3aG_lm5Fn-dHFZqnNSlkNP3IWz-oJpQa2o5QfRvJIbo3wVUFQ?purpose=inline)
+
+[atipik.ch](https://www.atipik.ch/en/blog/programmation-reactive-definition-frameworks?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Subject maintains a list of observers.
+2. Observers subscribe to the subject.
+3. Subject's state changes.
+4. Subject notifies all observers.
+5. Observers update their information.
+
+**Example:** YouTube notifications. When a channel uploads a video, subscribed users receive notifications.
+
+**Advantages:**
+
+- Loose coupling.
+- Automatic notification.
+- Supports multiple subscribers.
+
+**2. Adapter Pattern**
+
+The Adapter Pattern converts an existing interface into another interface expected by the client.
+
+[Structural Patterns - Software Documentation](https://images.openai.com/static-rsc-4/KOuAhCCIcMLpyZniCCg8XidLiAyXrPFsvTLUVTkZtfK4spM7xt92kff46xg-zTVYRV3CTkgucrZFYtTIit78sGbGfiJdZ1EM0vfbWth2ZBjMZm9mmBuF7tIMFz8HzbUU8h6201uHQuhQgyu7fNJLd-NZw1WcoghhFCPSEZaSzJw?purpose=inline)
+
+[axeloooo.github.io](https://axeloooo.github.io/Software-Engineering/design_patterns/structural_patterns.html?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Client requests a service.
+2. Adapter receives the request.
+3. Adapter converts it into the required format.
+4. Existing component performs the operation.
+5. Result is returned to the client.
+
+**Example:** A payment adapter allows a new application to communicate with an older payment gateway.
+
+**Advantages:**
+
+- Reuses existing code.
+- Connects incompatible interfaces.
+- Reduces modification of existing systems.
+
+**3. Strategy Pattern**
+
+The Strategy Pattern defines a family of algorithms and makes them interchangeable.
+
+[Strategy Design Pattern](https://images.openai.com/static-rsc-4/9HCQ5gTs_4JjaJamWEv7Cmn71GkVpnxfjMmUmTyJ2k8X4KFVTYNHm7JOEhIGvpe26Cqbek1jwGsWazhh-9RRJFS5AF95B0aoBbl5x-afqtYmc54koXxmgJiyH_Nq1CeyqkvqZOy30qdEbsnkKdwTxJUj3bDKEIcEV-LH6gQEISc?purpose=inline)
+
+[enjoyalgorithms.com](https://www.enjoyalgorithms.com/blog/strategy-design-pattern/?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Define a common strategy interface.
+2. Create different implementations.
+3. Select the required strategy at runtime.
+4. Execute the selected algorithm.
+
+**Example:** An online shopping system supports multiple payment methods:
+
+- UPI Payment
+- Card Payment
+- Net Banking
+
+The customer selects one payment strategy.
+
+**Advantages:**
+
+- Easy to add new algorithms.
+- Avoids large conditional statements.
+- Improves flexibility.
+
+**4. Facade Pattern**
+
+The Facade Pattern provides a simple interface to a complex subsystem.
+
+[Design Patterns – Facade - Software Particles](https://images.openai.com/static-rsc-4/2qQunSFXN_5YYr7yB37bjBcKdOxjDTer8Y9487u7L2Rz6As59_FW0X3ZwAYJGhUKD-391qJidTf9iYiR8GejmujXalvmNIvLapXA_AWbPySWQLTYQgI-sHCoVgimYUse-JNhwxe-iGzQq1EnFBHigCL4SlbdIaCbIEM_hw2CIuE?purpose=inline)
+
+[softwareparticles.com](https://softwareparticles.com/design-patterns-facade/?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Client sends a request to the Facade.
+2. Facade communicates with subsystem components.
+3. Subsystems perform their operations.
+4. Facade returns the result.
+
+**Example:** A single online booking button can coordinate payment, seat reservation and ticket generation.
+
+**Advantages:**
+
+- Simplifies complex systems.
+- Reduces direct dependency.
+- Easy to use.
+
+**Comparison**
+
+| Pattern  | Main Purpose                    |
+| -------- | ------------------------------- |
+| Observer | Notify dependent objects        |
+| Adapter  | Convert incompatible interfaces |
+| Strategy | Switch between algorithms       |
+| Facade   | Simplify complex subsystems     |
+
+**Conclusion:** Design Patterns provide reusable solutions and help developers create flexible, maintainable and well-structured software.
+
+### **3. Explain Architectural Styles: Layered, Client-Server, Tiered and Pipe-and-Filter with diagrams.**
+
+**Introduction**
+
+Software Architecture describes the overall organisation of a software system, its components and their relationships.
+
+Architectural styles provide common ways to organise software.
+
+**1. Layered Architecture**
+
+In Layered Architecture, software is divided into different layers. Each layer performs a particular responsibility.
+
+[AI-Driven App Architectures: Avoid Spaghetti Code | Medium](https://images.openai.com/static-rsc-4/8pmFvogyRqRy56YvYbFd-P85pZ1azH91xl5M8QxZdOKz1V23kerRxwoon_oN0BYB5029SmRGVT1MjIMctb0QFTGOcJMH0XqwrVXP0QwYO_-GJ5pDY7oKFYXpyE5xUKJ_nZ4KCEnxnCq55mFpuiVKYl9fijtGmGjVFaRLlH-XPeo?purpose=inline)
+
+[felix-pappe.medium.com](https://felix-pappe.medium.com/design-first-code-later-the-ai-era-mantra-581a56227bed?utm_source=chatgpt.com)
+
+**Layers:**
+
+1. Presentation Layer – User interface.
+2. Business Logic Layer – Application rules.
+3. Data Access Layer – Database communication.
+4. Database Layer – Stores information.
+
+**Example:** College Management System.
+
+**Advantages:**
+
+- Easy maintenance.
+- Clear separation of responsibilities.
+- Easier testing.
+- Supports modular development.
+
+**Disadvantages:**
+
+- Additional communication overhead.
+- Changes may affect multiple layers.
+
+**2. Client-Server Architecture**
+
+Client-Server Architecture divides the system into clients and servers.
+
+[What is the backend?. An easy intro to the Backend, Servers… | by Rio Edwards | Medium](https://images.openai.com/static-rsc-4/xD8hTqMoW15D4hc4ka5RZawwdekHG9Qt5WNyJWDGYb-Hq7OYInrRTzK_PQixLuUgtsyFSSoJsSl_cAtO822eDq1xtCjNzi-s2q6wc4gt4BHNa-nBXVKOUHuo-zQ9xViO0GPoASiK5ZNB3vgoWJ-TCL-5Ji6EskTl4NDbT83RQsA?purpose=inline)
+
+[medium.com](https://medium.com/%40rioedwards/what-is-the-backend-ffd808ff950e?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Client sends a request.
+2. Server receives the request.
+3. Server processes it.
+4. Server accesses data if required.
+5. Server sends the response.
+
+**Example:** A web browser requests a page from a web server.
+
+**Advantages:**
+
+- Centralised management.
+- Easier data sharing.
+- Centralised security.
+
+**Disadvantages:**
+
+- Server failure can affect many clients.
+- Network dependency.
+- Heavy server load can reduce performance.
+
+**3. Tiered Architecture**
+
+Tiered Architecture divides an application into separate physical or logical tiers.
+
+[What is an Application Server? Functions, Types, and Web Server Comparison | ColdFusion](https://images.openai.com/static-rsc-4/jHbEyVF3nBprJIGl1DtaBVXnvAwYYINkFxfUUeftSUoFQZHW-i5gFmMzIyB9Pb71YzQjqLoB2LT20pK74UbJXBAmL9yNJHEMyYhMlAWM_Im6wNxDi4LT9MHudgcV8KqMzh_EQqFre7zK9eak8rIvMr5hZDz-yL8DsN_qNjBwLKM?purpose=inline)
+
+[coldfusion.adobe.com](https://coldfusion.adobe.com/2026/02/what-is-an-application-server-functions-types-and-web-server-comparison/?utm_source=chatgpt.com)
+
+**Three Tiers:**
+
+1. Presentation Tier – Displays the interface.
+2. Application Tier – Processes business logic.
+3. Data Tier – Stores information.
+
+**Example:** Online shopping application.
+
+**Advantages:**
+
+- Better scalability.
+- Easier maintenance.
+- Supports separate deployment.
+- Better security control.
+
+**Disadvantages:**
+
+- More deployment complexity.
+- Communication between tiers adds overhead.
+
+**4. Pipe-and-Filter Architecture**
+
+In this architecture, data passes through a sequence of independent processing components called filters. Pipes connect the filters.
+
+[Must-Know Software Architecture Patterns](https://images.openai.com/static-rsc-4/rj_u1eo1N9V3f4H64GyU8SXzR_gPFiWdhgMKHIXFwhJ4NL4Oct3nYDk24yP0nmc64TC-fG-O82nSSgMZHhpvj3eMx8CY05Lkzdk7GMHPhDcBVqzjarWihY2kWiccGhNwb0iJR7h-D_8nC9Vpmeay3Ulh9uWOrTI31xajm1USjWY?purpose=inline)
+
+[blog.bytebytego.com](https://blog.bytebytego.com/p/must-know-software-architecture-patterns?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Input data enters the first filter.
+2. Filter processes the data.
+3. Output passes through a pipe.
+4. Next filter processes the output.
+5. Final result is produced.
+
+**Example – Compiler:**
+
+- Lexical Analysis
+- Syntax Analysis
+- Semantic Analysis
+- Code Generation
+
+**Advantages:**
+
+- Reusable filters.
+- Easy to add processing steps.
+- Supports modularity.
+- Useful for data processing.
+
+**Disadvantages:**
+
+- Data conversion may be required.
+- Not suitable for every interactive application.
+- Error handling across filters can be difficult.
+
+**Comparison**
+
+| Style           | Main Concept               | Example           |
+| --------------- | -------------------------- | ----------------- |
+| Layered         | Organised layers           | College portal    |
+| Client-Server   | Request and response       | Web application   |
+| Tiered          | Separate application tiers | E-commerce system |
+| Pipe-and-Filter | Sequential data processing | Compiler          |
+
+**Conclusion:** Architectural styles help organise software components. The correct style depends on performance, scalability, security and system requirements.
+
+### **4. Explain User Interface Design – Principles and Process.**
+
+**Introduction**
+
+User Interface (UI) Design is the process of designing screens, controls, menus and interactions through which users communicate with software.
+
+A good UI should be simple, consistent and easy to use.
+
+### **Principles of UI Design**
+
+**1. Simplicity**
+
+Keep the interface simple and avoid unnecessary elements.
+
+**2. Consistency**
+
+Use consistent colours, buttons, fonts and layouts.
+
+**3. Visibility**
+
+Important information and actions should be clearly visible.
+
+**4. Feedback**
+
+The system should provide feedback after user actions.
+
+Example: "Payment Successful."
+
+**5. Error Prevention**
+
+Prevent users from making mistakes through validation and confirmation.
+
+**6. User Control**
+
+Allow users to cancel, go back or undo actions where appropriate.
+
+**7. Accessibility**
+
+Design for users with different abilities. Provide readable text, keyboard support and sufficient contrast.
+
+**8. Learnability**
+
+New users should be able to understand the interface quickly.
+
+**9. Efficiency**
+
+Frequently used functions should be easy to access.
+
+**10. Responsive Design**
+
+The interface should work on mobile, tablet and desktop devices.
+
+### **UI Design Process**
+
+[What Is UX Design? A Complete Guide for Beginners](https://images.openai.com/static-rsc-4/KWIv7tNpr0jxzA1ShrwJ3ulOVKIb24pBY93XxN5tOe3HZWih0nBSULjvNtCmB_bwUnsVPP0QXoeO0HlHno74u_0Y7exkBOyJLHNinV0WrBcPn1HZ9N6I9rmwqYZfKPbE9iJl3AKlsTu-WcyVfaARKBZ6hDwg6gLSt2w23dczCGg?purpose=inline)
+
+[phaedrasolutions.com](https://www.phaedrasolutions.com/blog/what-is-ux-design?utm_source=chatgpt.com)
+
+1. **User Research:** Understand target users and their needs.
+2. **Requirement Analysis:** Identify required screens and features.
+3. **Information Architecture:** Organise information and navigation.
+4. **Wireframing:** Create basic screen layouts.
+5. **Prototyping:** Build an interactive sample.
+6. **Visual Design:** Select colours, typography, icons and spacing.
+7. **Usability Testing:** Test with actual users.
+8. **Implementation:** Convert designs into working interfaces.
+9. **Evaluation:** Collect feedback and improve the UI.
+
+### **Example – College Portal**
+
+A good college portal should contain:
+
+- Simple login page.
+- Student dashboard.
+- Attendance details.
+- Examination results.
+- Fee payment.
+- Clear navigation.
+- Mobile-friendly layout.
+
+### **Advantages of Good UI Design**
+
+- Improves user satisfaction.
+- Reduces user errors.
+- Saves time.
+- Improves accessibility.
+- Makes software easier to learn.
+
+**Conclusion:** UI design is an important part of software development because it improves usability, accessibility and user satisfaction.
+
+# **UNIT 5 – SOFTWARE TESTING AND MAINTENANCE**
+
+## **Part A – 2-Mark Answers**
+
+**1. Black Box Testing vs White Box Testing**
+
+| Black Box Testing                        | White Box Testing                                  |
+| ---------------------------------------- | -------------------------------------------------- |
+| Tests external functionality.            | Tests internal code and logic.                     |
+| No knowledge of source code is required. | Knowledge of source code is required.              |
+| Focuses on inputs and outputs.           | Focuses on statements, branches and paths.         |
+| Example: Login testing.                  | Example: Testing every branch of a login function. |
+
+**2. Unit Testing vs Integration Testing**
+
+| Unit Testing                     | Integration Testing                   |
+| -------------------------------- | ------------------------------------- |
+| Tests individual modules.        | Tests combined modules.               |
+| Usually performed by developers. | Performed after unit testing.         |
+| Finds errors within a module.    | Finds errors in module communication. |
+
+**3. What is Regression Testing?**
+
+Regression Testing is the process of re-testing previously tested software after modifications to ensure that existing features still work correctly.
+
+**Example:** After updating the payment module, testing login, cart and order functions again.
+
+**4. Debugging vs Testing**
+
+| Testing                                  | Debugging                          |
+| ---------------------------------------- | ---------------------------------- |
+| Identifies software defects.             | Finds the cause and fixes defects. |
+| Checks whether software works correctly. | Corrects the problems found.       |
+| Performed by testers and developers.     | Mainly performed by developers.    |
+
+## **Part B – 13-Mark Answers**
+
+### **1. Explain Black Box, White Box, Unit, Integration, System and Regression Testing with examples.**
+
+**Introduction**
+
+Software Testing is the process of evaluating software to identify defects and verify that it meets specified requirements.
+
+The main goal is to improve software quality, reliability, security and performance.
+
+### **1. Black Box Testing**
+
+Black Box Testing checks the functionality of software without examining its internal source code.
+
+[Difference between Black box and White box testing - Shiksha Online](https://images.openai.com/static-rsc-4/s3Fq232F7XXNaVosvLTGt-bmHRu_1f6j-NrVfyG3vPTOBtAM6KzHrC7g-tmjFX3zg2UEbb9hKY_Eok3fNyn6HY7e8aRgmm0bYZLZRhyPkZC6yqdfIv0stMnGq4tW-JdwfOHug5BhGb80T6zCaeCFIQoNICCXN3lhvxHnGrq0Ld0?purpose=inline)
+
+[shiksha.com](https://www.shiksha.com/online-courses/articles/difference-between-black-box-and-white-box-testing/?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Understand requirements.
+2. Prepare test cases.
+3. Provide input.
+4. Observe output.
+5. Compare actual and expected results.
+6. Report defects.
+
+**Example – Login Page:**
+
+| Input                         | Expected Result    |
+| ----------------------------- | ------------------ |
+| Correct username and password | Login successful   |
+| Wrong password                | Error message      |
+| Empty fields                  | Validation message |
+
+**Techniques:**
+
+- Equivalence Partitioning
+- Boundary Value Analysis
+- Decision Table Testing
+- State Transition Testing
+
+**Advantages:**
+
+- No source-code knowledge required.
+- Tests user-visible behaviour.
+- Useful for requirement validation.
+
+**Disadvantages:**
+
+- Internal code paths may remain untested.
+- Test cases depend on requirement quality.
+
+### **2. White Box Testing**
+
+White Box Testing checks the internal structure, logic and code of software.
+
+[What is White Box Testing? Types, Techniques, Examples](https://images.openai.com/static-rsc-4/k24qFlgamsE8hfdg3BrEYGsIaphOin34MteEnudVSkTvwBd6wHLUTfTIOgsoow2nKxAHp7bL0fNCccQNSSVI_-Mm2NcWXErDEO_mOeaB6pZmdkxU7H_gzydNMsiZTGxx-QUdxLqi8VUAWFm7zzdhXdyq-Yl3qonlipn3QVOLJPE?purpose=inline)
+
+[wallarm.com](https://www.wallarm.com/what/white-box-testing?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Study source code.
+2. Identify statements and branches.
+3. Design test cases.
+4. Execute test cases.
+5. Measure code coverage.
+6. Correct defects.
+
+**Techniques:**
+
+- Statement Coverage
+- Branch Coverage
+- Path Coverage
+- Condition Coverage
+- Loop Testing
+
+**Example:**
+
+```
+if marks >= 50:    print("Pass")else:    print("Fail")
+```
+
+Tests should cover both the Pass and Fail branches.
+
+**Advantages:**
+
+- Tests internal logic.
+- Finds hidden code defects.
+- Helps improve code coverage.
+
+**Disadvantages:**
+
+- Requires programming knowledge.
+- Testing every possible path may be impossible.
+- Can be time-consuming.
+
+### **3. Unit Testing**
+
+Unit Testing checks individual functions, classes or modules separately.
+
+**Example:** Testing a function that calculates the total price of food items.
+
+**Advantages:**
+
+- Finds errors early.
+- Makes debugging easier.
+- Supports code quality.
+
+### **4. Integration Testing**
+
+Integration Testing checks whether multiple modules work correctly together.
+
+[Introducción a las pruebas de integración en Java | Delft Stack](https://images.openai.com/static-rsc-4/-jVfGoYjVAXDE9rHPuV62tm86zZaNsygtxVQPaD6la-nOJmwXjrxIusVE-claV59Ybcf11P__3-K3AERRLnmPO1L1OTiY2AEbF67VC0NgFv2lMooiMW2-CkcRG-4f_RQxhMlOs5beX8mXANfnj48LZuIOHTJuVB10f0qLBE6UdU?purpose=inline)
+
+[delftstack.com](https://www.delftstack.com/es/howto/java/introduction-to-integration-testing-in-java/?utm_source=chatgpt.com)
+
+**Example – Food Ordering System:**
+
+- Login Module
+- Cart Module
+- Payment Module
+- Order Module
+
+Integration testing checks whether payment information correctly updates the order.
+
+**Approaches:**
+
+- Top-down Integration
+- Bottom-up Integration
+- Big Bang Integration
+- Sandwich Integration
+
+### **5. System Testing**
+
+System Testing tests the complete integrated software system against its requirements.
+
+**Example:** Testing the complete railway reservation application, including login, train search, booking, payment, ticket generation and cancellation.
+
+**Types:**
+
+- Functional Testing
+- Performance Testing
+- Security Testing
+- Usability Testing
+- Compatibility Testing
+
+### **6. Regression Testing**
+
+Regression Testing ensures that modifications do not break existing functionality.
+
+**Example:** After adding a new UPI payment option, test previous card payment, login, cart and order functions.
+
+**Advantages:**
+
+- Prevents old bugs from returning.
+- Improves confidence after updates.
+- Supports continuous software development.
+
+### **Comparison**
+
+| Testing Type | Main Purpose                          |
+| ------------ | ------------------------------------- |
+| Black Box    | Check external functionality          |
+| White Box    | Check internal code                   |
+| Unit         | Test individual modules               |
+| Integration  | Test module connections               |
+| System       | Test complete application             |
+| Regression   | Check existing features after changes |
+
+**Conclusion:** Different testing techniques are necessary to ensure that software works correctly at module, integration and system levels.
+
+### **2. Explain Testing Techniques in detail. Create a Test Plan for Railway Reservation System.**
+
+**Introduction**
+
+Software Testing Techniques are methods used to design test cases and identify defects in software.
+
+### **1. Black Box Testing Techniques**
+
+**A. Equivalence Partitioning**
+
+Input data is divided into groups called equivalence classes. One or more representative values are selected from each group.
+
+Example: If a valid age range is 18–60:
+
+- Below 18 – Invalid.
+- 18 to 60 – Valid.
+- Above 60 – Invalid.
+
+**B. Boundary Value Analysis**
+
+Tests values at the boundaries of an input range.
+
+Example: Valid age is 18–60. Test:
+
+- 17
+- 18
+- 19
+- 59
+- 60
+- 61
+
+**C. Decision Table Testing**
+
+Used when output depends on multiple conditions.
+
+Example: Ticket booking may depend on seat availability and successful payment.
+
+**D. State Transition Testing**
+
+Tests changes between different system states.
+
+Example: Booking states:
+
+- Available
+- Reserved
+- Confirmed
+- Cancelled
+
+### **2. White Box Testing Techniques**
+
+**A. Statement Coverage:** Executes every statement at least once.
+
+**B. Branch Coverage:** Executes every decision branch.
+
+**C. Path Coverage:** Tests different execution paths.
+
+**D. Condition Coverage:** Tests each Boolean condition as true and false.
+
+**E. Loop Testing:** Tests loops for zero, one and multiple iterations.
+
+### **3. Other Testing Techniques**
+
+- Performance Testing – Checks speed and responsiveness.
+- Load Testing – Checks behaviour under expected user load.
+- Stress Testing – Checks behaviour beyond normal capacity.
+- Security Testing – Identifies security weaknesses.
+- Usability Testing – Checks ease of use.
+- Compatibility Testing – Checks different browsers, devices and operating systems.
+- Acceptance Testing – Confirms that software meets user needs.
+
+### **Test Plan for Railway Reservation System**
+
+**1. Test Plan Identification**
+
+Project Name: Railway Reservation System.
+
+Testing Type: Functional, integration, system and acceptance testing.
+
+**2. Objective**
+
+To verify that users can search trains, check availability, book tickets, make payments, cancel tickets and receive refunds correctly.
+
+**3. Scope**
+
+The test plan covers:
+
+- User registration and login.
+- Train search.
+- Seat availability.
+- Passenger details.
+- Ticket booking.
+- Payment.
+- Ticket generation.
+- Cancellation.
+- Refund.
+
+**4. Test Environment**
+
+- Operating System: Windows/Linux/Android.
+- Browser: Chrome/Firefox.
+- Database: MySQL/PostgreSQL.
+- Internet connection.
+- Test payment gateway.
+
+**5. Test Cases**
+
+| Test ID | Test Scenario                       | Expected Result                  |
+| ------- | ----------------------------------- | -------------------------------- |
+| TC01    | Register with valid details         | Account created                  |
+| TC02    | Login with correct details          | Login successful                 |
+| TC03    | Login with wrong password           | Error displayed                  |
+| TC04    | Search valid source and destination | Available trains displayed       |
+| TC05    | Search without destination          | Validation message               |
+| TC06    | Check seat availability             | Correct availability shown       |
+| TC07    | Enter valid passenger details       | Details accepted                 |
+| TC08    | Book available ticket               | Booking successful               |
+| TC09    | Make successful payment             | Payment confirmed                |
+| TC10    | Payment failure                     | Booking not falsely confirmed    |
+| TC11    | Generate ticket                     | PNR/ticket generated             |
+| TC12    | Cancel confirmed ticket             | Cancellation processed           |
+| TC13    | Check refund status                 | Correct refund information shown |
+| TC14    | Search invalid train/date           | Suitable error displayed         |
+
+**6. Entry Criteria**
+
+- Requirements are available.
+- Test environment is ready.
+- Test data is prepared.
+- Application is available for testing.
+
+**7. Exit Criteria**
+
+- Critical defects are fixed.
+- All planned test cases are executed.
+- Important requirements are verified.
+- Test results are documented.
+
+**8. Test Deliverables**
+
+- Test Plan
+- Test Cases
+- Test Execution Report
+- Defect Report
+- Test Summary Report
+
+**9. Risks**
+
+- Payment gateway failure.
+- Network interruption.
+- Incorrect seat availability.
+- Database errors.
+- High user traffic.
+
+**10. Expected Result**
+
+The system should support correct train search, booking, payment, ticket generation and cancellation.
+
+**Conclusion:** A proper test plan helps ensure that the railway reservation system is reliable, secure and user-friendly.
+
+### **3. Explain Debugging Process and Program Analysis, Symbolic Execution and Model Checking.**
+
+**Introduction**
+
+Debugging is the process of identifying, analysing and correcting errors in software. It helps improve program correctness and reliability.
+
+### **1. Debugging Process**
+
+[Testing vs Debugging: Understanding the Difference | by Ryan Craven | Jan, 2026 | Medium](https://images.openai.com/static-rsc-4/5t0CekY92SOIvbAygj1CocDPMQHU0fukr1leCNfYbx1mzCVM7t_6wWFV_HzhSWm5wDsDdCPTDFdYchoZ-dLXlDeapLIxXkZs1IEzIKHK9Nfcj3xz5QZSZYP6A7WeiT25QMGTs907l6XT3cHy-GX40SV40_SFcd5bBJHehBDRagk?purpose=inline)
+
+[medium.com](https://medium.com/%40ryan.craven.qa/testing-vs-debugging-understanding-the-difference-9695bf464786?utm_source=chatgpt.com)
+
+**Steps:**
+
+1. Error Detection – Identify an error through testing or user reports.
+2. Error Reproduction – Reproduce the problem.
+3. Error Location – Find the part of the program causing the error.
+4. Root Cause Analysis – Understand why the error occurs.
+5. Error Correction – Modify the source code.
+6. Verification – Test the corrected program.
+7. Regression Testing – Ensure that other features still work.
+
+**Debugging Techniques:**
+
+- Print debugging – Display variable values.
+- Breakpoint debugging – Pause execution at selected lines.
+- Step-by-step execution – Execute one statement at a time.
+- Backtracking – Trace the program to locate the source of an error.
+- Logging – Record events and errors.
+
+### **2. Program Analysis**
+
+Program Analysis is the process of examining a program to understand its behaviour, correctness, performance and possible errors.
+
+**Types:**
+
+**A. Static Analysis**
+
+Examines source code without executing the program.
+
+Examples:
+
+- Syntax checking.
+- Code quality analysis.
+- Detecting unused variables.
+- Detecting possible security issues.
+
+**B. Dynamic Analysis**
+
+Examines the program while it is running.
+
+Examples:
+
+- Memory usage monitoring.
+- Runtime error detection.
+- Performance profiling.
+- Test execution.
+
+### **3. Symbolic Execution**
+
+Symbolic Execution is a software analysis technique that executes a program using symbolic inputs instead of fixed input values.
+
+[Symbolic execution - Introduction to the Dark Arts](https://images.openai.com/static-rsc-4/NZAPO_vCFKiV3V6zCwNBPLCdORqX19U6_l2cf1_Fuo7BZ6u86_fg92PWYAljxqccMYPV-4GdsSxJs41PuOxSPRXiEnMk0Wa3c2b8gr3kuUBWpahxixPhiUp-h4MIuXa1MS_JcSvHCE_WF2-xYnhRdV9Hm1dUVdjd_kVgejXyE04?purpose=inline)
+
+[one2bla.me](https://one2bla.me/the-dark-arts/reverse-engineering/symbolic-execution.html?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Assign symbolic values to inputs.
+2. Execute the program symbolically.
+3. Track conditions and expressions.
+4. Generate path conditions.
+5. Solve the conditions to find test inputs.
+
+**Example:**
+
+```
+if x > 10:    print("Large")else:    print("Small")
+```
+
+For symbolic input `x`:
+
+- Path 1 condition: `x > 10`.
+- Path 2 condition: `x <= 10`.
+
+Test values can be selected to cover both paths.
+
+**Advantages:**
+
+- Finds hidden path-related errors.
+- Helps generate test cases.
+- Useful for program verification.
+
+**Disadvantages:**
+
+- Path explosion in complex programs.
+- Difficult for programs with complex constraints.
+
+### **4. Model Checking**
+
+Model Checking is a formal verification technique used to verify whether a system satisfies specified properties.
+
+[Frontiers | Model checking deep neural networks: opportunities and challenges](https://images.openai.com/static-rsc-4/9WmkPHpAhs3gLVe4LSk5vDOcUXk-zcDS6fZPiTjOvQFZ3Z3F7iI6MBUGNYVTxbjTT5wo_eA2ey7i_GiieJ4etTIeqVgEbxca2E5-Ua8EXtvG02wE1oK6eD5GyiCVUEzpHprZ6xOjpnJ8LbswNwk2kTWfHB68-nixNwWJplx8U98?purpose=inline)
+
+[frontiersin.org](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1557977/full?utm_source=chatgpt.com)
+
+**Working:**
+
+1. Create a model of the system.
+2. Define properties that must be satisfied.
+3. Explore possible system states.
+4. Check whether the properties hold.
+5. If a property fails, generate a counterexample.
+
+**Example – Railway Signal System**
+
+A safety property may state that a train should not receive a green signal when the track is occupied.
+
+Model checking explores system states to verify whether this condition can ever be violated.
+
+**Advantages:**
+
+- Detects design-level errors.
+- Checks system properties systematically.
+- Useful for safety-critical systems.
+
+**Disadvantages:**
+
+- State-space explosion.
+- Requires a correct model.
+- Complex systems may be difficult to model.
+
+**Comparison**
+
+| Technique          | Purpose                                      |
+| ------------------ | -------------------------------------------- |
+| Program Analysis   | Examines program behaviour and quality       |
+| Symbolic Execution | Analyses program paths using symbolic inputs |
+| Model Checking     | Verifies system properties across states     |
+| Debugging          | Finds and fixes defects                      |
+
+**Conclusion:** Debugging, program analysis, symbolic execution and model checking help identify errors and improve software reliability and correctness.
+
+# **UNIT 6 – PROJECT MANAGEMENT**
+
+## **Part A – 2-Mark Answers**
+
+**1. What is a Gantt Chart?**
+
+A Gantt Chart is a project scheduling tool that displays activities against time using horizontal bars. It shows task start dates, end dates, duration and progress.
+
+**2. PERT vs CPM**
+
+| PERT                                     | CPM                                             |
+| ---------------------------------------- | ----------------------------------------------- |
+| Program Evaluation and Review Technique. | Critical Path Method.                           |
+| Uses three time estimates.               | Traditionally uses one time estimate.           |
+| Suitable for uncertain activities.       | Suitable for relatively predictable activities. |
+| Focuses on time uncertainty.             | Focuses on scheduling and time-cost trade-offs. |
+
+**3. What is DevOps?**
+
+DevOps is a combination of Development and Operations practices that improves collaboration, automation and continuous software delivery.
+
+It includes Continuous Integration, Continuous Delivery, testing, deployment and monitoring.
+
+**4. What is SCM?**
+
+SCM stands for Software Configuration Management. It is the process of identifying, controlling, tracking and managing changes to software items such as source code, documents and configuration files.
+
+## **Part B – 13-Mark Answers**
+
+### **1. Explain Project Scheduling, Gantt Chart, PERT and CPM with example calculation.**
+
+**Introduction**
+
+Software Project Scheduling is the process of identifying project activities, estimating their duration, arranging them in order and assigning resources.
+
+It helps complete the project within the planned time and budget.
+
+### **1. Project Scheduling**
+
+**Steps:**
+
+1. Identify project activities.
+2. Break the project into smaller tasks.
+3. Estimate task duration.
+4. Identify task dependencies.
+5. Assign resources.
+6. Prepare the schedule.
+7. Monitor project progress.
+8. Update the schedule when required.
+
+**Example – College Management System**
+
+Activities:
+
+- Requirement Analysis
+- System Design
+- Database Design
+- Coding
+- Testing
+- Deployment
+
+### **2. Gantt Chart**
+
+A Gantt Chart is a visual project scheduling tool that displays tasks and their duration on a timeline.
+
+[Gantt Chart for Software Development Project - Boardmix templates](https://images.openai.com/static-rsc-4/wwPWxn0P-WCY24VnyIsWQ3TjViqsMcCD6pWtTQY5s2Udd5ge9CTYMQ4O1pJ-d5cr_a-bpVZukQcu4G5_aCRXlcrFZmi4mHL2LRIOYoakcVQA6Gafx-2pbpE__K1NCGPXeOChp1zTcHby4yQkAg2SdxTRJpIXwKdFj8WCQIf_JrY?purpose=inline)
+
+[boardmix.com](https://boardmix.com/community/x1CRFQrlLfIAsgoGyopRiQ/?utm_source=chatgpt.com)
+
+**Example:**
+
+| Activity     | Week 1 | Week 2 | Week 3 | Week 4 |
+| ------------ | ------ | ------ | ------ | ------ |
+| Requirements | █      |        |        |        |
+| Design       |        | █      |        |        |
+| Coding       |        | █      | █      |        |
+| Testing      |        |        |        | █      |
+| Deployment   |        |        |        | █      |
+
+**Advantages:**
+
+- Easy to understand.
+- Shows task duration.
+- Helps track progress.
+- Shows overlapping tasks.
+
+**Disadvantages:**
+
+- Complex projects create large charts.
+- Dependencies may be difficult to understand.
+- Frequent updates may be required.
+
+### **3. PERT – Program Evaluation and Review Technique**
+
+PERT is a project scheduling technique used when activity durations are uncertain.
+
+It uses three time estimates:
+
+- Optimistic Time (O): Minimum expected time.
+- Most Likely Time (M): Normal expected time.
+- Pessimistic Time (P): Maximum expected time.
+
+**Expected Time Formula:**
+
+\\[ TE=\frac{O+4M+P}{6} \\]
+
+**Example Calculation:**
+
+Suppose an activity has:
+
+- O = 2 days
+- M = 4 days
+- P = 8 days
+
+\\[ TE=\frac{2+4(4)+8}{6} \\]
+
+\\[ TE=\frac{26}{6}=4.33\text{ days} \\]
+
+Expected completion time = **4.33 days**.
+
+**PERT Variance Formula:**
+
+\\[ \sigma^2=\left(\frac{P-O}{6}\right)^2 \\]
+
+\\[ \sigma^2=\left(\frac{8-2}{6}\right)^2=1 \\]
+
+Variance = 1 day².
+
+**Advantages:**
+
+- Handles uncertain activity times.
+- Helps estimate project duration.
+- Identifies critical activities.
+
+**Disadvantages:**
+
+- Time estimates may be subjective.
+- Large networks can become complex.
+
+### **4. CPM – Critical Path Method**
+
+CPM is a project scheduling technique used to identify the longest path of dependent activities in a project network.
+
+The longest path determines the minimum time required to complete the project.
+
+**Example:**
+
+Consider the following activities:
+
+| Activity         | Duration | Dependency |
+| ---------------- | -------- | ---------- |
+| A – Requirements | 2 days   | None       |
+| B – Design       | 3 days   | A          |
+| C – Database     | 4 days   | A          |
+| D – Coding       | 5 days   | B and C    |
+| E – Testing      | 2 days   | D          |
+
+**Network Diagram:**
+
+[PMP Critical Path Method CPM in an easy way - Software engineering](https://images.openai.com/static-rsc-4/0TlGdUa7WIS4mQyPb9SgiSfkZ_IPVstbz8w_Ak59GUnyT53yN9cUZNOnsPVr911ELxXuw0XpeG5N1aguSyznpslPf6Bkh_Cq_XkvacdazcH2-dw-9CMttrbD4M8QCNJ595vjrb8mBZ5ZkB4tyTJNUeSK_hcw--QMF_7mrkf3osw?purpose=inline)
+
+[softwareengineeringfree.blogspot.com](https://softwareengineeringfree.blogspot.com/2019/03/pmp-critical-path-method-cpm-in-easy-way.html?utm_source=chatgpt.com)
+
+**Path Calculation**
+
+Path 1:
+
+A → B → D → E
+
+\\[ 2+3+5+2=12\text{ days} \\]
+
+Path 2:
+
+A → C → D → E
+
+\\[ 2+4+5+2=13\text{ days} \\]
+
+Therefore:
+
+- Critical Path = A → C → D → E
+- Project Duration = 13 days.
+
+**Slack**
+
+Slack is the amount of time an activity can be delayed without delaying the overall project.
+
+Activities on the critical path have zero total slack.
+
+**Advantages:**
+
+- Identifies critical activities.
+- Helps control project duration.
+- Supports resource planning.
+- Helps identify schedule delays.
+
+**Disadvantages:**
+
+- Requires accurate activity dependencies.
+- Large projects can become complicated.
+- Traditional CPM assumes activity durations are known.
+
+### **PERT vs CPM**
+
+| PERT                           | CPM                                                  |
+| ------------------------------ | ---------------------------------------------------- |
+| Uses three time estimates.     | Usually uses one time estimate.                      |
+| Probabilistic.                 | Traditionally deterministic.                         |
+| Useful when time is uncertain. | Useful when duration is predictable.                 |
+| Focuses on time uncertainty.   | Focuses on critical path and time-cost optimisation. |
+
+**Conclusion:** Project scheduling helps organise project activities. Gantt Charts provide a visual timeline, PERT estimates uncertain durations and CPM identifies the critical path.
+
+### **2. Explain DevOps: Cloud as Platform, Deployment Pipeline, Building and Testing, Deployment.**
+
+**Introduction**
+
+DevOps is a software development approach that combines Development and IT Operations. It improves communication, automation, software quality and delivery speed.
+
+The word DevOps comes from:
+
+- Dev – Development
+- Ops – Operations
+
+[Why You Should Invest In Developer Workflow Optimization?](https://images.openai.com/static-rsc-4/No5IeMze8knyS-RBMTVI-oK7ktwSKXG0iRVt6Y8BVDC5eIw_HUe1EIu0DJnquc6ex4FcnSFqrz9E05JxyJ_cGBFYfxzl7y-OW3QZdJWG53GSQ99PWCvHvzo3h3F3_jghIrhGvXeeIT9VVXVngYFSjSwet-zSItnQ85lbnhiL4-o?purpose=inline)
+
+[devzero.io](https://www.devzero.io/blog/why-you-should-invest-in-developer-workflow-optimization?utm_source=chatgpt.com)
+
+### **1. DevOps Lifecycle**
+
+**1. Plan:** Collect requirements and plan development tasks.
+
+**2. Code:** Developers write and manage source code.
+
+**3. Build:** Convert source code into executable software or deployment packages.
+
+**4. Test:** Run automated and manual tests.
+
+**5. Release:** Prepare a verified version for deployment.
+
+**6. Deploy:** Make the application available to users.
+
+**7. Operate:** Manage the running application.
+
+**8. Monitor:** Monitor performance, errors and availability.
+
+### **2. Cloud as a Platform**
+
+Cloud computing provides servers, storage, databases and networking through the internet.
+
+Examples:
+
+- AWS
+- Microsoft Azure
+- Google Cloud
+
+**Benefits:**
+
+- Scalable infrastructure.
+- Reduced hardware management.
+- Flexible resource usage.
+- Easier deployment.
+- Supports distributed teams.
+
+**Example:** Hosting a college portal on a cloud platform so students can access it online.
+
+### **3. Deployment Pipeline**
+
+A Deployment Pipeline is an automated sequence of steps used to build, test and deploy software.
+
+[How to Implement CI/CD Efficiently](https://images.openai.com/static-rsc-4/QTIWnW9xVqL408bxLfwkFJ2bVubUMFJgK9U97TcpZzI9Not3Ay5U5bLdBivAq6GCG0sQeQwW3H8IYgu6V0pKVv3h3hR-N99UhaLdygcYYahYWh6Ktz5pkmp0EdBj8BKzewmnXNvwzQ9KAg2opisjAwqYUdB268MSUnVDfo6Mf2k?purpose=inline)
+
+[harness.io](https://www.harness.io/blog/implement-ci-cd-efficiently?utm_source=chatgpt.com)
+
+**Stages:**
+
+1. Developer commits code.
+2. Source code is stored in a version control system.
+3. Automated build starts.
+4. Unit tests execute.
+5. Integration tests execute.
+6. Application is deployed to staging.
+7. Acceptance tests are performed.
+8. Approved application is deployed to production.
+
+### **4. Building and Testing**
+
+**Building:**
+
+- Compile source code.
+- Install dependencies.
+- Package application.
+- Prepare deployment files.
+
+**Testing:**
+
+- Unit Testing.
+- Integration Testing.
+- System Testing.
+- Security Testing.
+- Performance Testing.
+- Acceptance Testing.
+
+Automation helps reduce manual work and identify errors early.
+
+### **5. Deployment**
+
+Deployment is the process of releasing software into a production environment.
+
+**Deployment Strategies:**
+
+**A. Rolling Deployment:** Update application instances gradually.
+
+**B. Blue-Green Deployment:** Maintain two environments and switch traffic to the updated environment.
+
+**C. Canary Deployment:** Release the new version to a small group before wider release.
+
+**D. Continuous Deployment:** Automatically deploy changes after all required checks pass.
+
+### **6. DevOps Tools**
+
+| Purpose                 | Examples                |
+| ----------------------- | ----------------------- |
+| Version Control         | Git, GitHub             |
+| Build                   | Maven, Gradle           |
+| CI/CD                   | Jenkins, GitHub Actions |
+| Containers              | Docker                  |
+| Container Orchestration | Kubernetes              |
+| Cloud                   | AWS, Azure              |
+| Monitoring              | Prometheus, Grafana     |
+
+### **Advantages of DevOps**
+
+- Faster software delivery.
+- Continuous testing.
+- Better team collaboration.
+- Improved reliability.
+- Easier deployment.
+- Faster defect correction.
+
+### **Disadvantages**
+
+- Requires learning new tools.
+- Initial setup can be complex.
+- Automation needs maintenance.
+- Security must be managed carefully.
+
+**Conclusion:** DevOps combines development, testing and operations through automation and collaboration. It helps deliver software faster and more reliably.
+
+### **3. Explain Software Configuration Management and Project Management Activities.**
+
+**Introduction**
+
+Software Configuration Management (SCM) is the process of identifying, organising, controlling and tracking changes to software products throughout their development lifecycle.
+
+It helps maintain consistency and prevents confusion between different versions of software.
+
+### **1. Objectives of SCM**
+
+1. Control software changes.
+2. Maintain version history.
+3. Avoid conflicts between developers.
+4. Support team collaboration.
+5. Maintain software integrity.
+6. Provide rollback facilities.
+7. Improve project reliability.
+
+### **2. Software Configuration Items (SCIs)**
+
+SCIs are the software items managed under configuration management.
+
+Examples:
+
+- Source code.
+- Requirements documents.
+- Design documents.
+- Test cases.
+- User manuals.
+- Database scripts.
+- Configuration files.
+
+### **3. Main SCM Activities**
+
+[Software configuration management](https://images.openai.com/static-rsc-4/F98b6PGrE-sZVYCUn8aoFL6HUs-ZVONPQUN2yg6G7t4IfM9c7jUgUfhYfdK8FOXChtSoT5MmaPK2itzoFDXqDqwNKqfLuGR68aeR3eyBM0k2bGDGvyh4o7B8nTMcmwFWsPa1dak5zAPMDfUHMkH_xeQNI3Gs9DUOA84qX-EDcvc?purpose=inline)
+
+[voer.edu.vn](https://www.voer.edu.vn/m/software-configuration-management/9d204001?utm_source=chatgpt.com)
+
+**1. Configuration Identification**
+
+Identify and name the items that need to be controlled.
+
+Example: Login module, database schema and user manual.
+
+**2. Version Control**
+
+Maintain different versions of software files.
+
+Example: Version 1.0, Version 1.1 and Version 2.0.
+
+Tools:
+
+- Git
+- GitHub
+- GitLab
+
+**3. Change Control**
+
+Manage and approve changes to software items.
+
+Steps:
+
+1. Submit change request.
+2. Analyse the impact.
+3. Approve or reject the change.
+4. Implement the approved change.
+5. Test and record the result.
+
+**4. Configuration Status Accounting**
+
+Record and report the status of configuration items and changes.
+
+Example:
+
+- Current software version.
+- Approved changes.
+- Pending changes.
+- Released versions.
+
+**5. Configuration Auditing**
+
+Verify that software items are correct and follow approved requirements.
+
+**6. Build and Release Management**
+
+Manage software builds, versions and releases.
+
+### **4. Example of SCM in a College Portal**
+
+Suppose three developers work on a college portal.
+
+- Developer 1 works on login.
+- Developer 2 works on attendance.
+- Developer 3 works on the dashboard.
+
+Using Git:
+
+1. Each developer creates a branch.
+2. Developers make changes.
+3. Changes are committed.
+4. Changes are reviewed.
+5. Branches are merged.
+6. The application is tested.
+7. A new version is released.
+
+This helps prevent accidental loss of code and supports collaboration.
+
+### **5. Software Project Management Activities**
+
+Software Project Management is the process of planning, organising, monitoring and controlling software development activities.
+
+**Important Activities:**
+
+**1. Project Planning**
+
+Define objectives, scope, schedule and deliverables.
+
+**2. Cost Estimation**
+
+Estimate the budget required for development.
+
+**3. Time Estimation**
+
+Estimate the time required to complete each activity.
+
+**4. Resource Management**
+
+Allocate developers, testers, hardware and software tools.
+
+**5. Risk Management**
+
+Identify possible risks and prepare solutions.
+
+Examples:
+
+- Developer absence.
+- Technology failure.
+- Budget increase.
+- Schedule delay.
+
+**6. Team Management**
+
+Assign responsibilities and coordinate team members.
+
+**7. Quality Management**
+
+Ensure that software meets quality standards.
+
+**8. Project Monitoring**
+
+Compare actual progress with planned progress.
+
+**9. Communication Management**
+
+Share project updates with customers, developers and managers.
+
+**10. Project Closure**
+
+Complete documentation, hand over software and review project results.
+
+### **SCM vs Project Management**
+
+| SCM                                     | Project Management                            |
+| --------------------------------------- | --------------------------------------------- |
+| Manages software changes and versions.  | Manages the entire project.                   |
+| Focuses on configuration items.         | Focuses on scope, cost, time and resources.   |
+| Uses version control tools.             | Uses scheduling and project management tools. |
+| Prevents uncontrolled software changes. | Ensures project completion.                   |
+
+**Advantages of SCM**
+
+- Maintains version history.
+- Controls changes.
+- Supports teamwork.
+- Helps recover earlier versions.
+- Improves software consistency.
+
+**Advantages of Project Management**
+
+- Better planning.
+- Proper resource allocation.
+- Reduced project risks.
+- Improved communication.
+- Timely project completion.
+
+**Conclusion:** SCM controls software versions and changes, while Project Management controls the overall development process. Both are essential for successful software development.
+
+# **FINAL EXAM PREPARATION – IMPORTANT REVISION**
+
+## **1. Most Important Long-Answer Questions**
+
+Revise these first because they cover the main concepts of each unit.
+
+| Unit   | Important 13-Mark Questions                                 |
+| ------ | ----------------------------------------------------------- |
+| Unit 1 | SDLC Models, Agile Process, XP Process                      |
+| Unit 2 | SRS, UML Diagrams, DFD, FSM and Petri Nets                  |
+| Unit 3 | Coupling and Cohesion, Design Principles, Functional vs OOD |
+| Unit 4 | MVC, Design Patterns, Architectural Styles, UI Design       |
+| Unit 5 | Testing Types, Railway Reservation Test Plan, Debugging     |
+| Unit 6 | Gantt Chart, PERT/CPM, DevOps, SCM                          |
+
+## **2. Important Diagrams to Practise**
+
+[Pengertian dan Tahap Metode SDLC Waterfall | by Ersandi Billah | Medium](https://images.openai.com/static-rsc-4/O28aq9FrqNT_AJRIVLdcxqALm5pirq4FGbg2T_b2_wAjxO4l4511MLvMi8bprxix6NJ9mPjD70XxsqQTpqdRTBdSnMCeRR5NC3L3VZJDwf4UUBZrrOnDZ5NJ_x1uke2yDLP8uhc9vgqjzkUSWJ2kp_vyEGPb2WctgIZublfOCe8?purpose=inline)
+
+**Unit 1:** Waterfall, Incremental, Spiral, Agile and XP diagrams.
+
+Practise the phases in the correct order.
+
+[Class Diagram: Definition, Examples & How to Create One - Venngage](https://images.openai.com/static-rsc-4/-IYXV2jT9ZALn7fQ3OA6qxl6DWLaF0vYDp2G4ELb8ZtGco_vR-jVFVsjkVaJ0LEybBi175d4MoHNJN_jfX9IhGrTNDR9mXxkuSLtenU0bSteG6E5WvfQBQnGLuw5BfJaJvPgLAiUDN5fXh7Ow1HE3wl1qZpvTL05eQ_7EnliD8M?purpose=inline)
+
+**Unit 2:** Use Case, Class, Sequence, Activity, State Chart and DFD.
+
+Practise the symbols and labels.
+
+[PPT - Problem Solving and Algorithm Design PowerPoint Presentation, free download - ID:6950375](https://images.openai.com/static-rsc-4/Qzf--VpWOEzR4IyRdO_ps8nRPa2ONfv3F-EUwAleDvKTXd7sWoNc2aU8nqpzgTRhd6dmFyFeOKbMdZkVXkesi5_8Ma12CAtYNYjpDLAjSpVvLahWLZySn2VFfuwMdyGO_rq4hY-g6hQfHpm2PCIm3eREal6jue-TqfRDlbOghVI?purpose=inline)
+
+**Unit 3:** Top-down, Bottom-up and Coupling/Cohesion diagrams.
+
+Remember the types and examples.
+
+[What is MVC architecture?. Understanding MVC Architecture: A… | by Hirusha Gamage | Medium](https://images.openai.com/static-rsc-4/SsTcDa_r1lcBlfx-Ug5oStCQVYMIAp8pgvFQ_-bAqolVCQv574DzGfqWJam0YgrHArJER8jPOWVhp1c8g6pcrCti2LJ9v2z6hcqYMnvH9QzopW3nZ5UPg7pBzGKJjphjv5xhCBf-ChkeWcpH6dvlD_lgQWlcjRiZFlGfN3oONcg?purpose=inline)
+
+**Unit 4:** MVC, Observer, Adapter, Strategy, Facade and Architecture diagrams.
+
+Explain each component clearly.
+
+[Software Testing Basics Made Simple: An Easy Guide for Beginners](https://images.openai.com/static-rsc-4/r00TRzS9f9j2qzxKVMMHPApD8KcANgH9ysD7UH6PlsA-sU-2jPNHFSUN0Ud-LaELVnO469zS26ZkOIKCeU66kScF6Eb4Mia6J8X2w5Yvum3lyc18Fp4J8NLxODBlk9D_dY_73DMZuvf9I38XHrokZhwaOcRtef84f7ZsciYjvvc?purpose=inline)
+
+**Unit 5:** Testing process, test plan, debugging and model checking.
+
+Practise test-case tables.
+
+[Project Management Network Diagram Critical Path Example Cpm](https://images.openai.com/static-rsc-4/lttoYcbMI_BOh5uTdVTWkx6qmwkbJaAeyb0nrr8yMngNgDWIGwT57KuqwzDsL69clkbPF25r35KxYNsxPuwek_r__Nql59ZmhuxRoRK0IhJb9raa4y81JmCrlyiQVEJ6N2YLRgZ1VHwf3-MWaecptKVT-VJedFCUetK81N9wO8w?purpose=inline)
+
+**Unit 6:** Gantt Chart, PERT, CPM network and DevOps lifecycle.
+
+Practise formulas and calculations.
+
+## **3. How to Write a 13-Mark Answer for Approximately 5 Pages**
+
+Use this structure for every long-answer question:
+
+| Page   | What to Write                            |
+| ------ | ---------------------------------------- |
+| Page 1 | Introduction, definition and objectives  |
+| Page 2 | Main concepts and explanation            |
+| Page 3 | Diagram with explanation                 |
+| Page 4 | Working, examples and comparison         |
+| Page 5 | Advantages, disadvantages and conclusion |
+
+**Exam writing tips:**
+
+1. Write headings and subheadings clearly.
+2. Underline important technical terms.
+3. Draw diagrams using a pencil and label them.
+4. Use tables for comparisons.
+5. Give at least one real-time example.
+6. Write advantages and disadvantages separately.
+7. Finish with a short conclusion.
+
+## **4. Important Formulas to Memorise**
+
+**PERT Expected Time**
+
+\\[ TE=\frac{O+4M+P}{6} \\]
+
+**PERT Variance**
+
+\\[ \sigma^2=\left(\frac{P-O}{6}\right)^2 \\]
+
+**Cyclomatic Complexity**
+
+\\[ V(G)=E-N+2P \\]
+
+**CPM Project Duration:** Duration of the longest path in the project network.
+
+All 6 Units Covered
+
+You now have the 2-mark answers and the long-answer material for all six units in one place. For the 13-mark questions, expand each heading with the explanations and diagrams to build your five-page answer.
